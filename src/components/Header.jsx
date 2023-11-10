@@ -360,33 +360,6 @@ const Header = () => {
                         {/* Gallery */}
                         <li className="menu-item">
                           <Link to={'gallery'}>Gallery</Link>
-                          {/* <div className="megamenu megamenu-fullwidth megamenu-position-left">
-                            <div className="megamenu-row">
-                              <div className="col12">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          About Us
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Vission
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Mission
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div> */}
                         </li>
                         
                         {/* Events */}
@@ -423,34 +396,7 @@ const Header = () => {
 
                         {/* News */}
                         <li className="menu-item">
-                          <a href="#">News</a>
-                          <div className="megamenu megamenu-fullwidth megamenu-position-left">
-                            <div className="megamenu-row">
-                              <div className="col12">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          About Us
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Vission
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Mission
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
+                        <Link to={'news'}>News</Link>
                         </li>
 
                         {/* Contacts */}
