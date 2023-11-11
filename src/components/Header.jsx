@@ -335,11 +335,11 @@ const Header = () => {
                                   <li className="menu-item">
                                     <ul className="list-unstyled">
                                       <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          About Us
-                                        </a>
+                                        <Link to={"activities"}>
+                                          Activity
+                                        </Link>
                                       </li>
-                                      <li>
+                                      {/* <li>
                                         <a href="index-hot-slider-split-home-layout1.html">
                                           Vission
                                         </a>
@@ -348,7 +348,7 @@ const Header = () => {
                                         <a href="index-hot-slider-split-home-layout1.html">
                                           Mission
                                         </a>
-                                      </li>
+                                      </li> */}
                                     </ul>
                                   </li>
                                 </ul>
