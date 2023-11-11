@@ -2,7 +2,7 @@
 
 const Testimonials = () => {
   return (
-    <section className="testimonials layer-overlay overlay-theme-colored4-7" data-tm-bg-img="https://via.placeholder.com/1920x388">
+    <section className="testimonials layer-overlay overlay-theme-colored4-7" data-tm-bg-img="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/b1.jpg">
       <div className="container">
         <div className="section-title">
           <div className="row justify-content-center">
@@ -27,7 +27,7 @@ const Testimonials = () => {
                       <i className="fa fa-quote-right mt-10 text-white"></i>
                       <h4 className="author text-white mt-20 mb-0">Catherine Grace</h4>
                       <h6 className="title text-white mt-0 mb-15">Designer</h6>
-                      <div className="thumb mt-20"><img className="rounded-circle" alt="" src="https://via.placeholder.com/100x100"/></div>
+                      <div className="thumb mt-20"><img className="rounded-circle" alt="" src="https://kodesolution.com/html/2017/kidspro-html-b5/images/testimonials/1.jpg"/></div>
                     </div>
                   </div>
                 </div>
@@ -38,7 +38,7 @@ const Testimonials = () => {
                       <i className="fa fa-quote-right mt-10 text-white"></i>
                       <h4 className="author text-white mt-20 mb-0">Catherine Grace</h4>
                       <h6 className="title text-white mt-0 mb-15">Designer</h6>
-                      <div className="thumb mt-20"><img className="rounded-circle" alt="" src="https://via.placeholder.com/100x100"/></div>
+                      <div className="thumb mt-20"><img className="rounded-circle" alt="" src="https://kodesolution.com/html/2017/kidspro-html-b5/images/testimonials/2.jpg"/></div>
                     </div>
                   </div>
                 </div>
@@ -49,7 +49,7 @@ const Testimonials = () => {
                       <i className="fa fa-quote-right mt-10 text-white"></i>
                       <h4 className="author text-white mt-20 mb-0">Catherine Grace</h4>
                       <h6 className="title text-white mt-0 mb-15">Designer</h6>
-                      <div className="thumb mt-20"><img className="rounded-circle" alt="" src="https://via.placeholder.com/100x100"/></div>
+                      <div className="thumb mt-20"><img className="rounded-circle" alt="" src="https://kodesolution.com/html/2017/kidspro-html-b5/images/testimonials/3.jpg"/></div>
                     </div>
                   </div>
                 </div>

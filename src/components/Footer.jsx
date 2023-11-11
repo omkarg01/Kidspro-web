@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
         {/* <!-- Footer --> */}
-    <footer id="footer" className="footer divider layer-overlay overlay-dark-8" data-tm-bg-img="https://via.placeholder.com/1920x834">
+    <footer id="footer" className="footer divider layer-overlay overlay-dark-8" data-tm-bg-img="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/bg8.jpg">
         <div className="footer-widget-area">
         <div className="container pt-90 pb-40">
             <div className="row">

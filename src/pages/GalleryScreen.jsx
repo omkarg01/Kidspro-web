@@ -31,7 +31,7 @@ const Gallery = () => {
                         <div className="tm-gallery">
                           <div className="tm-gallery-inner">
                             <div className="thumb">
-                              <a href="#"><img src="https://via.placeholder.com/350x265" className="" alt="images"/></a>
+                              <a href="#"><img src="https://kodesolution.com/html/2017/kidspro-html-b5/images/gallery/1.jpg" className="" alt="images"/></a>
                             </div>
                             <div className="tm-gallery-content-wrapper">
                               <div className="tm-gallery-content">
@@ -59,7 +59,7 @@ const Gallery = () => {
                         <div className="tm-gallery">
                           <div className="tm-gallery-inner">
                             <div className="thumb">
-                              <a href="#"><img src="https://via.placeholder.com/350x265" className="" alt="images"/></a>
+                              <a href="#"><img src="https://kodesolution.com/html/2017/kidspro-html-b5/images/gallery/2.jpg" className="" alt="images"/></a>
                             </div>
                             <div className="tm-gallery-content-wrapper">
                               <div className="tm-gallery-content">
@@ -87,7 +87,7 @@ const Gallery = () => {
                         <div className="tm-gallery">
                           <div className="tm-gallery-inner">
                             <div className="thumb">
-                              <a href="#"><img src="https://via.placeholder.com/350x265" className="" alt="images"/></a>
+                              <a href="#"><img src="https://kodesolution.com/html/2017/kidspro-html-b5/images/gallery/3.jpg" className="" alt="images"/></a>
                             </div>
                             <div className="tm-gallery-content-wrapper">
                               <div className="tm-gallery-content">
@@ -115,7 +115,7 @@ const Gallery = () => {
                         <div className="tm-gallery">
                           <div className="tm-gallery-inner">
                             <div className="thumb">
-                              <a href="#"><img src="https://via.placeholder.com/350x265" className="" alt="images"/></a>
+                              <a href="#"><img src="https://kodesolution.com/html/2017/kidspro-html-b5/images/gallery/4.jpg" className="" alt="images"/></a>
                             </div>
                             <div className="tm-gallery-content-wrapper">
                               <div className="tm-gallery-content">
@@ -143,7 +143,7 @@ const Gallery = () => {
                         <div className="tm-gallery">
                           <div className="tm-gallery-inner">
                             <div className="thumb">
-                              <a href="#"><img src="https://via.placeholder.com/750x265" className="" alt="images"/></a>
+                              <a href="#"><img src="https://kodesolution.com/html/2017/kidspro-html-b5/images/gallery/5.jpg" className="" alt="images"/></a>
                             </div>
                             <div className="tm-gallery-content-wrapper">
                               <div className="tm-gallery-content">
@@ -171,7 +171,7 @@ const Gallery = () => {
                         <div className="tm-gallery">
                           <div className="tm-gallery-inner">
                             <div className="thumb">
-                              <a href="#"><img src="https://via.placeholder.com/450x250" className="" alt="images"/></a>
+                              <a href="#"><img src="https://kodesolution.com/html/2017/kidspro-html-b5/images/gallery/6.jpg" className="" alt="images"/></a>
                             </div>
                             <div className="tm-gallery-content-wrapper">
                               <div className="tm-gallery-content">
