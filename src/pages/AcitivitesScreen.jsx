@@ -1,7 +1,7 @@
 import React from "react";
 import PageTitle from "../components/PageTitle";
 
-const Acitivites = () => {
+const AcitivityScreen = () => {
   return (
     <>
       <PageTitle title={"Activity"} />
@@ -491,4 +491,4 @@ const Acitivites = () => {
   );
 };
 
-export default Acitivites;
+export default AcitivityScreen;

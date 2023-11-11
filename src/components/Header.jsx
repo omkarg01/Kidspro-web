@@ -88,7 +88,7 @@ const Header = () => {
                     >
                       <ul id="main-nav" className="menuzord-menu">
                         <li className="active menu-item">
-                          <a href="#">Home</a>
+                          <a href="/">Home</a>
                           {/* <div className="megamenu megamenu-fullwidth megamenu-position-left">
                             <div className="megamenu-row">
                               <div className="col3">
