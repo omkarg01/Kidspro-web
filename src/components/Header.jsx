@@ -303,19 +303,19 @@ const Header = () => {
                                   <li className="menu-item">
                                     <ul className="list-unstyled">
                                       <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
+                                        <Link to="about">
                                           About Us
-                                        </a>
+                                        </Link>
                                       </li>
                                       <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Vission
-                                        </a>
+                                        <Link to="vision">
+                                          Vision
+                                        </Link>
                                       </li>
                                       <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
+                                        <Link to="mission">
                                           Mission
-                                        </a>
+                                        </Link>
                                       </li>
                                     </ul>
                                   </li>
@@ -364,34 +364,7 @@ const Header = () => {
                         
                         {/* Events */}
                         <li className="menu-item">
-                          <a href="#">Events</a>
-                          <div className="megamenu megamenu-fullwidth megamenu-position-left">
-                            <div className="megamenu-row">
-                              <div className="col12">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          About Us
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Vission
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Mission
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
+                          <Link to={"events"}>Events</Link>
                         </li>
 
                         {/* News */}

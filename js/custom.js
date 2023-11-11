@@ -1,5 +1,4 @@
 var THEMEMASCOT = {};
-import $ from jQuery;
 
 (function($) {
   "use strict";

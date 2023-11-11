@@ -6,8 +6,11 @@ import GalleryScreen from './pages/GalleryScreen.jsx'
 import Homescreen from './components/Homescreen.jsx'
 import NewsListScreen from './pages/NewsListScreen.jsx'
 import NewsDetailScreen from './pages/NewsDetailScreen.jsx'
-// import './index.css'
-
+import EventsListScreen from './pages/EventsListScreen.jsx'
+import EventsDetailScreen from './pages/EventsDetailScreen.jsx'
+import AboutScreen from './pages/AboutScreen.jsx'
+import MissionScreen from './pages/MissionScreen.jsx'
+import VisionScreen from './pages/VisionScreen.jsx'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App/>}>
@@ -15,6 +18,11 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/gallery' element={<GalleryScreen/>}/>
     <Route path='/news' element={<NewsListScreen/>}/>
     <Route path='/news/1' element={<NewsDetailScreen/>}/>
+    <Route path='/events' element={<EventsListScreen/>}/>
+    <Route path='/events/1' element={<EventsDetailScreen/>}/>
+    <Route path='/about' element={<AboutScreen/>}/>
+    <Route path='/mission' element={<MissionScreen/>}/>
+    <Route path='/vision' element={<VisionScreen/>}/>
   </Route>
 ))
 
