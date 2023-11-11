@@ -11,7 +11,7 @@ import AboutScreen from './pages/AboutScreen.jsx'
 import MissionScreen from './pages/MissionScreen.jsx'
 import VisionScreen from './pages/VisionScreen.jsx'
 import AcitivityScreen from './pages/AcitivitesScreen.jsx'
-import HomeScreen from './pages/Homescreen.jsx'
+import HomeScreen from './pages/HomeScreen.jsx'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App/>}>
