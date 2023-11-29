@@ -17,7 +17,7 @@ const EventsDetailScreen = () => {
                 </li>
                 <li>
                   <h5>Host:</h5>
-                  Kodesolution Lmd.
+                  kodesolution.com Lmd.
                 </li>
                 <li>
                   <h5>Location:</h5>
@@ -33,7 +33,7 @@ const EventsDetailScreen = () => {
                 </li>
                 <li>
                   <h5>Website:</h5>
-                  kodesolution.com
+                  kodesolution.com.com
                 </li>
                 <li>
                   <h5>Share:</h5>

@@ -9,7 +9,7 @@ const AcitivityScreen = () => {
       {/* <!-- Section: Activity --> */}
       <section
         class="bg-img-cover bg-img-center"
-        data-tm-bg-img="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/p2.jpg"
+        data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
       >
         <div class="container pb-md-120" data-tm-padding-bottom="205px">
           <div class="section-title">
@@ -156,7 +156,7 @@ const AcitivityScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://kodesolution.com/html/2017/kidspro-html-b5/images/services/1.jpg"
+                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/1.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />
@@ -232,7 +232,7 @@ const AcitivityScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://kodesolution.com/html/2017/kidspro-html-b5/images/services/2.jpg"
+                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/2.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />
@@ -308,7 +308,7 @@ const AcitivityScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://kodesolution.com/html/2017/kidspro-html-b5/images/services/3.jpg"
+                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/3.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />
@@ -384,7 +384,7 @@ const AcitivityScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://kodesolution.com/html/2017/kidspro-html-b5/images/services/4.jpg"
+                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/4.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />
@@ -460,7 +460,7 @@ const AcitivityScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://kodesolution.com/html/2017/kidspro-html-b5/images/services/5.jpg"
+                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/5.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />
@@ -476,7 +476,7 @@ const AcitivityScreen = () => {
         <div class="tm-floating-objects">
           <span
             class="z-index-1 bg-img-cover"
-            data-tm-bg-img="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/f2.png"
+            data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/f2.png"
             data-tm-width="100%"
             data-tm-height="143"
             data-tm-top="auto"

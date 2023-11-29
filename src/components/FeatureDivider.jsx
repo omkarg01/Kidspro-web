@@ -3,7 +3,7 @@ const FeatureDivider = () => {
   return (
     <section
       className="divider"
-      data-tm-bg-img="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/b1.png"
+      data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/b1.png"
       data-tm-margin-top="-34px"
     >
       <div className="container">

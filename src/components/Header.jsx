@@ -61,20 +61,23 @@ const Header = () => {
             <div className="menuzord-container header-nav-container">
               <div className="container position-relative">
                 <div className="row header-nav-col-row">
-                  <div className="col-sm-auto align-self-center">
+                  <div className="col-sm-auto align-self-center" style={{height: '120px'}} >
                     <a
                       className="menuzord-brand site-brand"
                       href="index-mp-layout1.html"
+                      style={{height:'80px', width:'120px'}}
                     >
                       <img
                         className="logo-default logo-1x"
-                        src="images/logo-wide.png"
+                        src="images/CandiBrain.png"
                         alt="Logo"
+                        style={{ height: '100%', width : '100%', marginBlock:'10px'}}
                       />
                       <img
                         className="logo-default logo-2x retina"
-                        src="images/logo-wide@2x.png"
+                        src="images/CandiBrain.png"
                         alt="Logo"
+                        style={{ width : '60%', height:'80%'}}
                       />
                     </a>
                   </div>
@@ -86,6 +89,15 @@ const Header = () => {
                       data-animation="none"
                       data-align="right"
                     >
+                      {/* <a
+                        href="javascript:void(0)"
+                        class="showhide"
+                        style={{display: 'inline'}}
+                      >
+                        <em></em>
+                        <em></em>
+                        <em></em>
+                      </a> */}
                       <ul id="main-nav" className="menuzord-menu">
                         <li className="active menu-item">
                           <a href="/">Home</a>
@@ -303,19 +315,13 @@ const Header = () => {
                                   <li className="menu-item">
                                     <ul className="list-unstyled">
                                       <li>
-                                        <Link to="about">
-                                          About Us
-                                        </Link>
+                                        <Link to="about">About Us</Link>
                                       </li>
                                       <li>
-                                        <Link to="vision">
-                                          Vision
-                                        </Link>
+                                        <Link to="vision">Vision</Link>
                                       </li>
                                       <li>
-                                        <Link to="mission">
-                                          Mission
-                                        </Link>
+                                        <Link to="mission">Mission</Link>
                                       </li>
                                     </ul>
                                   </li>
@@ -335,9 +341,7 @@ const Header = () => {
                                   <li className="menu-item">
                                     <ul className="list-unstyled">
                                       <li>
-                                        <Link to={"activities"}>
-                                          Activity
-                                        </Link>
+                                        <Link to={"activities"}>Activity</Link>
                                       </li>
                                       {/* <li>
                                         <a href="index-hot-slider-split-home-layout1.html">
@@ -359,9 +363,9 @@ const Header = () => {
 
                         {/* Gallery */}
                         <li className="menu-item">
-                          <Link to={'gallery'}>Gallery</Link>
+                          <Link to={"gallery"}>Gallery</Link>
                         </li>
-                        
+
                         {/* Events */}
                         <li className="menu-item">
                           <Link to={"events"}>Events</Link>
@@ -369,7 +373,7 @@ const Header = () => {
 
                         {/* News */}
                         <li className="menu-item">
-                        <Link to={'news'}>News</Link>
+                          <Link to={"news"}>News</Link>
                         </li>
 
                         {/* Contacts */}

@@ -2,7 +2,7 @@ const SectionDivider = () => {
   return (
     <section
       className="divider bg-img-cover bg-img-center layer-overlay overlay-theme-colored4-7"
-      data-tm-bg-img="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/p2.jpg"
+      data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
     >
       <div className="container pt-90 pb-90">
         <div className="row">

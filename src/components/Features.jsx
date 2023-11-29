@@ -2,7 +2,7 @@ const Features = () => {
   return (
     <section
       className="bg-img-cover bg-img-center"
-      data-tm-bg-img="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/p2.jpg"
+      data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
     >
       <div className="container">
         <div className="section-title">
@@ -114,7 +114,7 @@ const Features = () => {
               data-wow-delay="0.1s"
             >
               <div className="feature-img-content text-center">
-                <img src="https://kodesolution.com/html/2017/kidspro-html-b5/images/about/a1.png" alt="a1.png" />
+                <img src="https://html.kodesolution.com/2017/kidspro-html-b5/images/about/a1.png" alt="a1.png" />
               </div>
             </div>
             <div className="col-lg-4 col-xl-4">

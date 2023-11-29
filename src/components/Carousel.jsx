@@ -24,11 +24,11 @@ const Carousel = () => {
                   <rs-slide
                     data-key="rs-2"
                     data-title="Slide 1"
-                    data-thumb="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/bg2.jpg"
+                    data-thumb="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/bg2.jpg"
                     data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;"
                   >
                     <img
-                      src="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/bg2.jpg"
+                      src="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/bg2.jpg"
                       title="firoox-s1"
                       width="1920"
                       height="1280"
@@ -100,11 +100,11 @@ const Carousel = () => {
                   <rs-slide
                     data-key="rs-2"
                     data-title="Slide 1"
-                    data-thumb="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/bg1.jpg"
+                    data-thumb="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/bg1.jpg"
                     data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;"
                   >
                     <img
-                      src="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/bg1.jpg"
+                      src="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/bg1.jpg"
                       title="firoox-s1"
                       width="1920"
                       height="1280"

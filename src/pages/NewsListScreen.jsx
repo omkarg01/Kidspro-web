@@ -19,7 +19,7 @@ const NewsListScreen = () => {
                     <div class="post-thumb thumb">
                       <img
                         src={
-                          "https://kodesolution.com/html/2017/kidspro-html-b5/images/shop/portfolio-big1.jpg"
+                          "https://html.kodesolution.com/2017/kidspro-html-b5/images/shop/portfolio-big1.jpg"
                         }
                         alt="images"
                         class="img-responsive img-fullwidth"

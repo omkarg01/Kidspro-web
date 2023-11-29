@@ -4,14 +4,14 @@ const Footer = () => {
   return (
     <>
         {/* <!-- Footer --> */}
-    <footer id="footer" className="footer divider layer-overlay overlay-dark-8" data-tm-bg-img="https://kodesolution.com/html/2017/kidspro-html-b5/images/bg/bg8.jpg">
+    <footer id="footer" className="footer divider layer-overlay overlay-dark-8" data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/bg8.jpg">
         <div className="footer-widget-area">
         <div className="container pt-90 pb-40">
             <div className="row">
             <div className="col-md-6 col-lg-6 col-xl-4">
                 <div className="widget tm-widget-contact-info contact-info-style1 contact-icon-theme-colored1">
                 <div className="thumb">
-                    <img alt="Logo" src="images/logo-wide-white.png"/>
+                    <img alt="Logo" src="images/CandiBrain.png" style={{height:"100px", width : '120px'}} />
                 </div>
                 <div className="description">203, Envato Labs, Behind Alis Steet, Melbourne, Australia.immersion along the information close the loop on focusing</div>
                 <ul className="mb-30">

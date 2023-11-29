@@ -17,7 +17,7 @@ const NewsDetail = () => {
                     <div className="post-thumb thumb">
                       {" "}
                       <img
-                        src="https://kodesolution.com/html/2017/kidspro-html-b5/images/shop/portfolio-big1.jpg"
+                        src="https://html.kodesolution.com/2017/kidspro-html-b5/images/shop/portfolio-big1.jpg"
                         alt="images"
                         className="img-responsive img-fullwidth"
                       />{" "}
