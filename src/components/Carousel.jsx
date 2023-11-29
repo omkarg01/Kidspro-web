@@ -79,12 +79,12 @@ const Carousel = () => {
                       style={{zIndex:'10'}}
                       className="font-current-theme1"
                     >
-                      <a
+                      {/* <a
                         href="page-about.html"
                         className="btn btn-theme-colored4"
                       >
                         Contact Us
-                      </a>
+                      </a> */}
                     </rs-layer>
                     <rs-layer
                       id="slider-2-slide-2-layer-0"
@@ -155,12 +155,12 @@ const Carousel = () => {
                       style={{zIndex:'10'}}
                       className="font-current-theme1"
                     >
-                      <a
+                      {/* <a
                         href="page-about.html"
                         className="btn btn-theme-colored4"
                       >
                         Contact Us
-                      </a>
+                      </a> */}
                     </rs-layer>
                     <rs-layer
                       id="slider-2-slide-2-layer-0"
