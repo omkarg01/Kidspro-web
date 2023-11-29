@@ -14,20 +14,39 @@ const VisionScreen = () => {
               <div className="col-lg-6 col-xl-8">
                 <div className="about-box-contents">
                   <div className="destails">
-                    <h3 className="text-theme-colored2">Welcome To Kindergarten</h3>
+                    <h3 className="text-theme-colored2">
+                      Welcome To CandiBrain Preschool
+                    </h3>
                     <h4 className="text-theme-colored3 line-bottom">
                       World Best Education In Our Kindergarten
                     </h4>
                     <p>
-                      Cum sociis natoque penatibus et ultrices volutpat. Nullam
-                      wisi ultricies a, gravida vitae, dapibus risus ante
-                      sodales lectus.Cum sociis natoque penatibus et ultrices
-                      volutpat. Nullam wisi ultricies a, gravida vitae, dapibus
-                      risus ante sodales lectus
+                      At Candibrain Preschool, our vision is to be at the
+                      forefront of early childhood education, recognized for
+                      excellence and innovation. We envision a community where
+                      children are not just educated but inspired, instilling in
+                      them a profound sense of curiosity, resilience, and a
+                      passion for discovery.
+                    </p>
+                    <p>
+                      We aspire to create an immersive learning environment that
+                      goes beyond traditional boundaries, fostering critical
+                      thinking, creativity, and a deep appreciation for
+                      diversity.
+                    </p>
+                    <p>
+                      Our vision extends to shaping young minds into confident,
+                      compassionate individuals who embrace learning as a
+                      lifelong journey, well-prepared to face the challenges of
+                      an ever-evolving world. We aim to be a beacon of
+                      educational leadership, contributing positively to the
+                      growth and development of each child, and leaving an
+                      indelible mark on the landscape of early childhood
+                      education.
                     </p>
                   </div>
                 </div>
-                <div className="row">
+                {/* <div className="row">
                   <div className="col-sm-6">
                     <div className="tm-sc-icon-box icon-box icon-left text-center text-lg-start iconbox-centered-in-responsive iconbox-theme-colored3 animate-icon-on-hover animate-icon-rotate-y mb-30">
                       <div className="icon-box-wrapper">
@@ -39,7 +58,9 @@ const VisionScreen = () => {
                           </a>
                         </div>
                         <div className="icon-text">
-                          <h5 className="icon-box-title mb-0">Active Learning</h5>
+                          <h5 className="icon-box-title mb-0">
+                            Active Learning
+                          </h5>
                           <div className="content">
                             <p>
                               Lorem ipsum dolor sit amet, consectetur ipsum
@@ -62,7 +83,9 @@ const VisionScreen = () => {
                           </a>
                         </div>
                         <div className="icon-text">
-                          <h5 className="icon-box-title mb-0">Funny and Happy</h5>
+                          <h5 className="icon-box-title mb-0">
+                            Funny and Happy
+                          </h5>
                           <div className="content">
                             <p>
                               Lorem ipsum dolor sit amet, consectetur ipsum
@@ -85,7 +108,9 @@ const VisionScreen = () => {
                           </a>
                         </div>
                         <div className="icon-text">
-                          <h5 className="icon-box-title mb-0">Fulfill With Love</h5>
+                          <h5 className="icon-box-title mb-0">
+                            Fulfill With Love
+                          </h5>
                           <div className="content">
                             <p>
                               Lorem ipsum dolor sit amet, consectetur ipsum
@@ -108,7 +133,9 @@ const VisionScreen = () => {
                           </a>
                         </div>
                         <div className="icon-text">
-                          <h5 className="icon-box-title mb-0">Expert Teachers</h5>
+                          <h5 className="icon-box-title mb-0">
+                            Expert Teachers
+                          </h5>
                           <div className="content">
                             <p>
                               Lorem ipsum dolor sit amet, consectetur ipsum
@@ -120,14 +147,14 @@ const VisionScreen = () => {
                       </div>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="col-lg-6 col-xl-4">
                 <div className="text-center">
                   <div className="thumb">
                     <img
                       className="img-fullwidth"
-                      src="https://via.placeholder.com/360x465"
+                      src="https://html.kodesolution.com/2017/kidspro-html-b5/images/about/6.png"
                       alt="a1.png"
                     />
                   </div>
@@ -139,7 +166,7 @@ const VisionScreen = () => {
         <div className="tm-floating-objects">
           <span
             className="z-index-1 bg-img-cover"
-            data-tm-bg-img="https://via.placeholder.com/1895x143"
+            data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/f2.png"
             data-tm-width="100%"
             data-tm-height="143"
             data-tm-top="auto"

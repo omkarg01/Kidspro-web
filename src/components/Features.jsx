@@ -45,8 +45,10 @@ const Features = () => {
                     </h5>
                     <div className="content">
                       <p>
-                        Kidspro is a creative skill and a joy beyond anything
-                        found dolor.
+                        Candibrain promotes dynamic education through hands-on
+                        activities and collaborative projects, cultivating
+                        critical thinking skills for an engaging learning
+                        experience.
                       </p>
                     </div>
                   </div>
@@ -68,12 +70,13 @@ const Features = () => {
                   </div>
                   <div className="icon-text">
                     <h5 className="icon-box-title mb-0 text-theme-colored2">
-                      Multimedia className
+                      Resource Centers
                     </h5>
                     <div className="content">
                       <p>
-                        Kidspro is a creative skill and a joy beyond anything
-                        found dolor.
+                        Well-equipped hubs for research and self-directed
+                        learning, Candibrain's resource centers empower students
+                        with access to diverse educational materials.
                       </p>
                     </div>
                   </div>
@@ -90,17 +93,19 @@ const Features = () => {
                     {" "}
                     <a className="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i className="fas fa-graduation-cap"></i>{" "}
+                      <i className="fas fa-wifi" aria-hidden="true"></i>{" "}
                     </a>
                   </div>
                   <div className="icon-text">
                     <h5 className="icon-box-title mb-0 text-theme-colored3">
-                      Full Day Programs
+                      Technology Integration
                     </h5>
                     <div className="content">
                       <p>
-                        Kidspro is a creative skill and a joy beyond anything
-                        found dolor.
+                        Candibrain seamlessly integrates technology, utilizing
+                        digital resources and virtual classrooms to enhance
+                        teaching methodologies and provide a modern educational
+                        experience.
                       </p>
                     </div>
                   </div>
@@ -114,7 +119,10 @@ const Features = () => {
               data-wow-delay="0.1s"
             >
               <div className="feature-img-content text-center">
-                <img src="https://html.kodesolution.com/2017/kidspro-html-b5/images/about/a1.png" alt="a1.png" />
+                <img
+                  src="https://html.kodesolution.com/2017/kidspro-html-b5/images/about/a1.png"
+                  alt="a1.png"
+                />
               </div>
             </div>
             <div className="col-lg-4 col-xl-4">
@@ -137,8 +145,9 @@ const Features = () => {
                     </h5>
                     <div className="content">
                       <p>
-                        Kidspro is a creative skill and a joy beyond anything
-                        found dolor.
+                        Our passionate educators at Candibrain serve as mentors,
+                        creating a nurturing environment that inspires curiosity
+                        and a love for learning.
                       </p>
                     </div>
                   </div>
@@ -160,12 +169,13 @@ const Features = () => {
                   </div>
                   <div className="icon-text">
                     <h5 className="icon-box-title mb-0 text-theme-colored2">
-                      Funny and Happy
+                      Safe and Secure Environment
                     </h5>
                     <div className="content">
                       <p>
-                        Kidspro is a creative skill and a joy beyond anything
-                        found dolor.
+                        At At Candibrain, modern security and monitored play
+                        areas guarantee your child's safety, offering parents
+                        peace of mind as their little ones explore and learn.
                       </p>
                     </div>
                   </div>
@@ -182,17 +192,20 @@ const Features = () => {
                     {" "}
                     <a className="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i className="fab fa-gratipay"></i>{" "}
+                      <i className="fa fa-medkit"></i>{" "}
                     </a>
                   </div>
                   <div className="icon-text">
                     <h5 className="icon-box-title mb-0 text-theme-colored3">
-                      Fulfill With Love
+                      Health and Wellness
                     </h5>
                     <div className="content">
                       <p>
-                        Kidspro is a creative skill and a joy beyond anything
-                        found dolor.
+                        At Candibrain, we prioritize student well-being with
+                        dedicated areas for health activities, fostering good
+                        habits early on. Our commitment to holistic child
+                        development includes a focus on nutrition and physical
+                        well-being.
                       </p>
                     </div>
                   </div>

@@ -5,9 +5,12 @@
       <div class="row">
         <div class="col-md-12">
           <!-- Reservation Form Start-->
-          <form id="appointment_form_popup" name="appointment_form" class="appointment-form" method="post" action="includes/appointment.php">
+          <form id="appointment_form_popup" name="appointment_form" class="appointment-form" method="post"
+            action="includes/appointment.php">
             <h3 class="mt-0">Get A Free Service<span class="text-theme-colored1 font-weight-600"> Now!</span></h3>
-            <p class="">Lorem ipsum dolor sit amet, consectetur elit.</p>
+            <p class="">For face-to-face interactions, we encourage you to visit our campus. Our location is [provide
+              address], and we're always happy to welcome visitors. Whether you're dropping by for a scheduled meeting
+              or just want to get a sense of our community in action, we look forward to meeting you in person..</p>
             <div class="row">
               <div class="col-sm-6">
                 <div class="mb-3 mb-30">
@@ -45,13 +48,15 @@
               </div>
               <div class="col-sm-12">
                 <div class="mb-3">
-                  <textarea name="form_message" class="form-control required" rows="5" placeholder="Enter Message"></textarea>
+                  <textarea name="form_message" class="form-control required" rows="5"
+                    placeholder="Enter Message"></textarea>
                 </div>
               </div>
               <div class="col-sm-12">
                 <div class="mb-3 mb-0 mt-0">
                   <input name="form_botcheck" class="form-control" type="hidden" value="">
-                  <button type="submit" class="btn btn-theme-colored1 btn-round" data-loading-text="Please wait...">Submit Now</button>
+                  <button type="submit" class="btn btn-theme-colored1 btn-round"
+                    data-loading-text="Please wait...">Submit Now</button>
                 </div>
               </div>
             </div>
@@ -60,9 +65,9 @@
 
           <!-- Reservation Form Validation Start-->
           <script>
-            (function($) {
+            (function ($) {
               $("#appointment_form_popup").validate({
-                submitHandler: function(form) {
+                submitHandler: function (form) {
                   var form_btn = $(form).find('button[type="submit"]');
                   var form_result_div = '#form-result';
                   $(form_result_div).remove();
@@ -70,14 +75,14 @@
                   var form_btn_old_msg = form_btn.html();
                   form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
                   $(form).ajaxSubmit({
-                    dataType:  'json',
-                    success: function(data) {
-                      if( data.status == 'true' ) {
+                    dataType: 'json',
+                    success: function (data) {
+                      if (data.status == 'true') {
                         $(form).find('.form-control').val('');
                       }
                       form_btn.prop('disabled', false).html(form_btn_old_msg);
                       $(form_result_div).html(data.message).fadeIn('slow');
-                      setTimeout(function(){ $(form_result_div).fadeOut('slow') }, 6000);
+                      setTimeout(function () { $(form_result_div).fadeOut('slow') }, 6000);
                     }
                   });
                 }

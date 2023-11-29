@@ -4,7 +4,7 @@ const PageTitle = ({title}) => {
     <>
       <section
         className="page-title layer-overlay overlay-dark-9 section-typo-light bg-img-center"
-        data-tm-bg-img="https://via.placeholder.com/1920x800"
+        data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/bg3.jpg"
       >
         <div className="container pt-50 pb-50">
           <div className="section-content">
