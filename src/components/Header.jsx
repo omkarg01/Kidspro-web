@@ -45,12 +45,12 @@ const Header = () => {
                   </ul>
                 </div>
                 <div className="element pt-0 pt-lg-10 pb-0">
-                  <a
-                    href="ajax-load/form-appointment.html"
-                    className="btn btn-theme-colored2 btn-sm ajaxload-popup"
+                  <Link
+                    to={"enroll"}
+                    className="btn text-white btn-danger btn-sm"
                   >
-                    Make an Appointment
-                  </a>
+                    Enrol Now
+                  </Link>
                 </div>
               </div>
             </div>
@@ -340,7 +340,7 @@ const Header = () => {
 
                         {/* Programs */}
                         <li className="menu-item">
-                          <a href="activities">Programs</a>
+                          <a href="program">Programs</a>
                           {/* <div className="megamenu megamenu-fullwidth megamenu-position-left">
                             <div className="megamenu-row">
                               <div className="col12">

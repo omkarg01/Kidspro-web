@@ -1,10 +1,10 @@
 import React from "react";
 import PageTitle from "../components/PageTitle";
 
-const AcitivityScreen = () => {
+const ProgramScreen = () => {
   return (
     <>
-      <PageTitle title={"Activity"} />
+      <PageTitle title={"Programs"} />
 
       {/* <!-- Section: Activity --> */}
       <section
@@ -18,16 +18,17 @@ const AcitivityScreen = () => {
                 <div class="tm-sc-section-title section-title text-center">
                   <div class="title-wrapper">
                     <h2 class="title">
-                      Our <span class="text-theme-colored3">Activities</span>
+                      Our <span class="text-theme-colored3">Programs</span>
                     </h2>
                     <p>
-                      Dive into the world of hands-on activities and engaging
-                      projects that make learning at CandiBrain Preschool a
-                      delightful adventure. The gallery showcases the diverse
-                      range of activities, from art and science experiments to
-                      cultural celebrations and themed events. It's a visual
-                      feast that highlights the dynamic and stimulating
-                      experiences we offer.
+                      Embark on a journey with Candibrain Preschool as we guide
+                      your child through five distinct programs— <span className="text-theme-colored1"> Playgroup</span>, <span className="text-theme-colored2">
+                      Nursery </span>, <span className="text-theme-colored3"> Junior KG</span>, <span className="text-theme-colored1"> Senior KG </span>, and <span className="text-theme-colored4"> Day Care </span>. From the early
+                      stages of socialization in Playgroup to the advanced
+                      readiness for primary school in the Senior Program, each
+                      program is crafted to stimulate cognitive growth, foster
+                      essential skills, and instill a lifelong love for
+                      learning.
                     </p>
                   </div>
                 </div>
@@ -559,4 +560,4 @@ const AcitivityScreen = () => {
   );
 };
 
-export default AcitivityScreen;
+export default ProgramScreen;

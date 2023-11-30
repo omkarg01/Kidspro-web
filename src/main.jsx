@@ -10,8 +10,9 @@ import EventsDetailScreen from './pages/EventsDetailScreen.jsx'
 import AboutScreen from './pages/AboutScreen.jsx'
 import MissionScreen from './pages/MissionScreen.jsx'
 import VisionScreen from './pages/VisionScreen.jsx'
-import AcitivityScreen from './pages/AcitivitesScreen.jsx'
-import HomeScreen from './pages/HomeScreen.jsx'
+import ProgramScreen from './pages/ProgramScreen.jsx'
+import HomeScreen from './pages/Homescreen.jsx'
+import EnrollScreen from './pages/EnrollScreen.jsx'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App/>}>
@@ -24,7 +25,8 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/about' element={<AboutScreen/>}/>
     <Route path='/mission' element={<MissionScreen/>}/>
     <Route path='/vision' element={<VisionScreen/>}/>
-    <Route path='/activities' element={<AcitivityScreen/>}/>
+    <Route path='/program' element={<ProgramScreen/>}/>
+    <Route path='/enroll' element={<EnrollScreen/>}/>
   </Route>
 ))
 
