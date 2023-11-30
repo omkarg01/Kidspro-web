@@ -4,7 +4,7 @@ import PageTitle from "../components/PageTitle";
 const NewsDetail = () => {
   return (
     <>
-      <PageTitle title={"News Detail"}/>
+      <PageTitle title={"News & Events Detail"}/>
 
       {/* <!-- Section: Blog --> */}
       <section>

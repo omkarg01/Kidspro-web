@@ -374,13 +374,13 @@ const Header = () => {
                         </li>
 
                         {/* Events */}
-                        <li className="menu-item">
-                          <Link to={"events"}>Events</Link>
-                        </li>
+                        {/* <li className="menu-item">
+                          <Link to={"events"}></Link>
+                        </li> */}
 
                         {/* News */}
                         <li className="menu-item">
-                          <Link to={"news"}>News</Link>
+                          <Link to={"news-events"}>News & Events</Link>
                         </li>
 
                         

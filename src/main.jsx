@@ -19,10 +19,10 @@ const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App/>}>
     <Route index={true} element={<HomeScreen/>}/>
     <Route path='/gallery' element={<GalleryScreen/>}/>
-    <Route path='/news' element={<NewsListScreen/>}/>
-    <Route path='/news/1' element={<NewsDetailScreen/>}/>
-    <Route path='/events' element={<EventsListScreen/>}/>
-    <Route path='/events/1' element={<EventsDetailScreen/>}/>
+    <Route path='/news-events' element={<NewsListScreen/>}/>
+    <Route path='/news-events/1' element={<NewsDetailScreen/>}/>
+    {/* <Route path='/events' element={<EventsListScreen/>}/>
+    <Route path='/events/1' element={<EventsDetailScreen/>}/> */}
     <Route path='/about' element={<AboutScreen/>}/>
     <Route path='/mission' element={<MissionScreen/>}/>
     <Route path='/vision' element={<VisionScreen/>}/>

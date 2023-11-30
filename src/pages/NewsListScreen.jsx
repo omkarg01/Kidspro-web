@@ -6,7 +6,7 @@ const NewsListScreen = () => {
   return (
     <>
       {/* <!-- Section: page title --> */}
-      <PageTitle title={"News"} />
+      <PageTitle title={"News & Events"} />
 
       {/* <!-- News --> */}
       <section>
