@@ -1,8 +1,11 @@
 import React from "react";
+import PageTitle from "../components/PageTitle";
 
 const EnrollScreen = () => {
   return (
     <div>
+      <PageTitle title={"Enrol Now"} />
+
       <section>
         <div class="container">
           <div class="row">
@@ -192,7 +195,7 @@ const EnrollScreen = () => {
                           class="form-control required"
                           type="email"
                           placeholder="Email"
-                        //   aria-required="true"
+                          //   aria-required="true"
                         />
                       </div>
                     </div>
