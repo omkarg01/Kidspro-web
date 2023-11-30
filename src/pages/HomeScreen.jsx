@@ -11,7 +11,7 @@ const HomeScreen = () => {
       <Carousel></Carousel>
       <FeatureDivider></FeatureDivider>
       <Features></Features>
-      <SectionDivider></SectionDivider>
+      {/* <SectionDivider></SectionDivider> */}
       <Gallery></Gallery>
       <Testimonials></Testimonials>
     </>

@@ -65,7 +65,7 @@ const Carousel = () => {
                       style={{ zIndex: "11", textTransform: "capitalize" }}
                       className="font-current-theme2"
                     >
-                      Kinder <span className="text-theme-colored3">Garten</span>
+                      CandiBrain <span className="text-theme-colored3">Preschool</span>
                     </rs-layer>
                     <rs-layer
                       id="slider-2-slide-2-layer-22"

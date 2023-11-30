@@ -6,21 +6,21 @@ const Header = () => {
       {/* <!-- Header --> */}
       <header id="header" className="header header-layout-type-header-2rows">
         <div className="header-top">
-          <div className="container">
+          <div className="container-fluid">
             <div className="row">
               <div className="col-xl-auto header-top-left align-self-center text-center text-xl-start">
                 <ul className="element contact-info">
                   <li className="contact-phone">
                     <i className="fa fa-phone font-icon sm-display-block"></i>{" "}
-                    Tel: +440-98-5298
+                    Tel: +91 8925353323
                   </li>
                   <li className="contact-email">
                     <i className="fa fa-envelope font-icon sm-display-block"></i>{" "}
-                    info@example.com
+                    contact@candibrainpreschool.com
                   </li>
                   <li className="contact-address">
-                    <i className="fa fa-map font-icon sm-display-block"></i> 121
-                    King Street, Melbourne
+                    <i className="fa fa-map font-icon sm-display-block"></i>{" "}
+                    Vilankurchi, Saravanampatti, Coimbatore
                   </li>
                 </ul>
               </div>
@@ -61,23 +61,30 @@ const Header = () => {
             <div className="menuzord-container header-nav-container">
               <div className="container position-relative">
                 <div className="row header-nav-col-row">
-                  <div className="col-sm-auto align-self-center" style={{height: '120px'}} >
+                  <div
+                    className="col-sm-auto align-self-center"
+                    style={{ height: "120px" }}
+                  >
                     <a
                       className="menuzord-brand site-brand"
                       href="index-mp-layout1.html"
-                      style={{height:'80px', width:'120px'}}
+                      style={{ height: "80px", width: "120px" }}
                     >
                       <img
                         className="logo-default logo-1x"
                         src="images/CandiBrain.png"
                         alt="Logo"
-                        style={{ height: '100%', width : '100%', marginBlock:'10px'}}
+                        style={{
+                          height: "100%",
+                          width: "100%",
+                          marginBlock: "10px",
+                        }}
                       />
                       <img
                         className="logo-default logo-2x retina"
                         src="images/CandiBrain.png"
                         alt="Logo"
-                        style={{ width : '60%', height:'80%'}}
+                        style={{ width: "60%", height: "80%" }}
                       />
                     </a>
                   </div>
@@ -307,8 +314,8 @@ const Header = () => {
 
                         {/* About Us */}
                         <li className="menu-item">
-                          <a href="#">About us</a>
-                          <div className="megamenu megamenu-fullwidth megamenu-position-left">
+                          <a href="about">About us</a>
+                          {/* <div className="megamenu megamenu-fullwidth megamenu-position-left">
                             <div className="megamenu-row">
                               <div className="col12">
                                 <ul className="list-unstyled list-dashed">
@@ -328,13 +335,13 @@ const Header = () => {
                                 </ul>
                               </div>
                             </div>
-                          </div>
+                          </div> */}
                         </li>
 
                         {/* Programs */}
                         <li className="menu-item">
-                          <a href="#">Programs</a>
-                          <div className="megamenu megamenu-fullwidth megamenu-position-left">
+                          <a href="activities">Programs</a>
+                          {/* <div className="megamenu megamenu-fullwidth megamenu-position-left">
                             <div className="megamenu-row">
                               <div className="col12">
                                 <ul className="list-unstyled list-dashed">
@@ -343,7 +350,7 @@ const Header = () => {
                                       <li>
                                         <Link to={"activities"}>Activity</Link>
                                       </li>
-                                      {/* <li>
+                                     <li>
                                         <a href="index-hot-slider-split-home-layout1.html">
                                           Vission
                                         </a>
@@ -352,13 +359,13 @@ const Header = () => {
                                         <a href="index-hot-slider-split-home-layout1.html">
                                           Mission
                                         </a>
-                                      </li> */}
+                                      </li> 
                                     </ul>
                                   </li>
                                 </ul>
                               </div>
                             </div>
-                          </div>
+                          </div> */}
                         </li>
 
                         {/* Gallery */}

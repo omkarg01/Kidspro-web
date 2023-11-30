@@ -47,14 +47,15 @@ const AcitivityScreen = () => {
                         data-bs-toggle="tab"
                       >
                         {" "}
-                        <i class="fas fa-music"></i> <span>Music</span>{" "}
+                        <i class="fas fa-music"></i> <span>Playgroup</span>{" "}
                       </a>
                     </li>
                     <li class="bg-theme-colored2">
                       {" "}
                       <a href="#tab-learn-tabs" class="" data-bs-toggle="tab">
                         {" "}
-                        <i class="fas fa-graduation-cap"></i> <span>Learn</span>{" "}
+                        <i class="fas fa-graduation-cap"></i>{" "}
+                        <span>Nursery</span>{" "}
                       </a>
                     </li>
                     <li class="bg-theme-colored3">
@@ -65,14 +66,15 @@ const AcitivityScreen = () => {
                         data-bs-toggle="tab"
                       >
                         {" "}
-                        <i class="fas fa-paint-brush"></i> <span>Painting</span>{" "}
+                        <i class="fas fa-paint-brush"></i>{" "}
+                        <span>Junior KG</span>{" "}
                       </a>
                     </li>
                     <li class="bg-theme-colored1">
                       {" "}
                       <a href="#tab-sports-tabs" class="" data-bs-toggle="tab">
                         {" "}
-                        <i class="far fa-life-ring"></i> <span>Sports</span>{" "}
+                        <i class="far fa-life-ring"></i> <span>Senior KG</span>{" "}
                       </a>
                     </li>
                     <li class="bg-theme-colored4">
@@ -83,7 +85,7 @@ const AcitivityScreen = () => {
                         data-bs-toggle="tab"
                       >
                         {" "}
-                        <i class="fas fa-trophy"></i> <span>Playground</span>{" "}
+                        <i class="fas fa-trophy"></i> <span>Day Care</span>{" "}
                       </a>
                     </li>
                   </ul>
@@ -96,21 +98,29 @@ const AcitivityScreen = () => {
                         <div class="col-lg-6 col-xl-7">
                           <div class="tab-left-part mb-lg-40">
                             <h3 class="title mb-20 text-theme-colored1">
-                              Music
+                              Playgroup
                             </h3>
                             <p class="lead">
-                              Engaging in musical activities at Candibrain
-                              Preschool is a harmonious journey for young
-                              learners. Our music program is designed to foster
-                              a love for rhythm, melody, and self-expression.
+                              Welcome to the vibrant world of playgroup at
+                              Candibrain Preschool, where curiosity and
+                              imagination take center stage. Our playgroup
+                              program is designed to provide a stimulating
+                              environment for children aged{" "}
+                              <span className="text-theme-colored1">
+                                {" "}
+                                1.5 to 2.5{" "}
+                              </span>{" "}
+                              years, fostering early socialization and
+                              fundamental skill development.
                             </p>
                             <p>
-                              Students participate in interactive sessions where
-                              they explore various instruments, sing along to
-                              age-appropriate songs, and develop a sense of
-                              rhythm through creative movement. The joy of music
-                              not only enhances cognitive development but also
-                              encourages teamwork and boosts confidence.
+                              Through age-appropriate activities and interactive
+                              play, children embark on a journey of discovery,
+                              laying the foundation for future academic success.
+                              Our dedicated team of educators ensures a
+                              nurturing atmosphere, encouraging each child to
+                              explore, create, and build essential interpersonal
+                              skills.
                             </p>
                             <div class="row mb-20">
                               <div class="col-sm-6">
@@ -118,15 +128,17 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Instrument Exploration
+                                      Structured play-based learning.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Singing Adventures
+                                      Introduction to basic shapes, colors, and
+                                      numbers.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Rhythm and Movement
+                                      Storytelling and music sessions for
+                                      sensory development.
                                     </li>
                                   </ul>
                                 </div>
@@ -136,15 +148,17 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Musical Storytelling{" "}
+                                      Outdoor playtime for gross motor skill
+                                      enhancement.{" "}
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Group Performances
+                                      Creative arts and crafts activities.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Creative Sound Play
+                                      Regular communication with parents to
+                                      track developmental milestones.
                                     </li>
                                   </ul>
                                 </div>
@@ -174,20 +188,28 @@ const AcitivityScreen = () => {
                         <div class="col-lg-6 col-xl-7">
                           <div class="tab-left-part mb-lg-40">
                             <h3 class="title mb-20 text-theme-colored2">
-                              Learn
+                              Nursery
                             </h3>
                             <p class="lead">
-                              At Candibrain Preschool, the "Learn" activities
-                              are carefully curated to stimulate intellectual
-                              curiosity and a passion for discovery. Our program
-                              focuses on cultivating foundational skills through
-                              hands-on experiences, interactive lessons, and a
-                              playful approach to learning.
+                              At Candibrain Preschool, the nursery program marks
+                              the next step in your child's educational journey.
+                              Tailored for children aged{" "}
+                              <span className="text-theme-colored2">
+                                {" "}
+                                2.5 to 3.5{" "}
+                              </span>{" "}
+                              years, our nursery curriculum is designed to
+                              provide a balanced blend of academic readiness and
+                              social development.
                             </p>
                             <p>
-                              Students embark on a journey where every moment
-                              becomes an opportunity to explore, inquire, and
-                              build a strong foundation for lifelong learning.
+                              With a focus on fostering independence and a love
+                              for learning, our experienced educators engage
+                              students in activities that promote cognitive
+                              growth and language skills. The nursery program at
+                              Candibrain is a holistic approach to early
+                              education, ensuring that each child thrives in a
+                              supportive and encouraging environment.
                             </p>
                             <div class="row mb-20">
                               <div class="col-sm-6">
@@ -195,15 +217,17 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
-                                      Hands-On Exploration
+                                      Introduction to phonics and basic language
+                                      skills.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
-                                      Interactive Lessons
+                                      Hands-on exploration of math concepts.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
-                                      Science Adventures
+                                      Themed learning units for
+                                      interdisciplinary understanding.
                                     </li>
                                   </ul>
                                 </div>
@@ -213,15 +237,18 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
-                                      Literacy Adventures{" "}
+                                      Development of fine motor skills through
+                                      art and writing activities.{" "}
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
-                                      Math Magic
+                                      Interactive storytelling sessions to
+                                      enhance language comprehension.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
-                                      Inquisitive Play
+                                      Regular assessments and progress reports
+                                      for parents.
                                     </li>
                                   </ul>
                                 </div>
@@ -251,20 +278,28 @@ const AcitivityScreen = () => {
                         <div class="col-lg-6 col-xl-7">
                           <div class="tab-left-part mb-lg-40">
                             <h3 class="title mb-20 text-theme-colored3">
-                              Painting
+                              Junior KG
                             </h3>
                             <p class="lead">
-                              Diving into the world of creativity, our painting
-                              activities at Candibrain Preschool ignite the
-                              artistic spirit in young minds. The painting
-                              program is designed to foster self-expression,
-                              fine motor skills, and an appreciation for colors
-                              and shapes.
+                              The Junior KG at Candibrain Preschool caters to
+                              the dynamic needs of children aged{" "}
+                              <span className="text-theme-colored3">
+                                {" "}
+                                3.5 to 4.5{" "}
+                              </span>
+                              years, offering a comprehensive curriculum that
+                              blends academic readiness with creative
+                              expression.
                             </p>
                             <p>
-                              Students explore various painting techniques and
-                              materials, allowing their imagination to flourish
-                              as they create unique masterpieces.
+                              Our experienced educators guide students through a
+                              structured learning path, introducing them to
+                              foundational concepts in literacy, numeracy, and
+                              critical thinking. The junior program focuses on
+                              building a strong academic foundation while
+                              nurturing each child's unique talents and
+                              interests, ensuring a well-rounded and confident
+                              learner.
                             </p>
                             <div class="row mb-20">
                               <div class="col-sm-6">
@@ -272,15 +307,18 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
-                                      Exploration of Colors
+                                      Advanced phonics and early reading
+                                      comprehension.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
-                                      Texture Play
+                                      Introduction to basic mathematics and
+                                      problem-solving.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
-                                      Themed Art Projects
+                                      Hands-on science experiments for
+                                      curiosity-driven learning.
                                     </li>
                                   </ul>
                                 </div>
@@ -290,15 +328,18 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
-                                      Outdoor Painting{" "}
+                                      Creative expression through arts, drama,
+                                      and music.{" "}
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
-                                      Collaborative Murals
+                                      Outdoor activities for physical
+                                      development and teamwork.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
-                                      Art Showcases
+                                      Regular parent-teacher conferences to
+                                      discuss progress.
                                     </li>
                                   </ul>
                                 </div>
@@ -328,19 +369,28 @@ const AcitivityScreen = () => {
                         <div class="col-lg-6 col-xl-7">
                           <div class="tab-left-part mb-lg-40">
                             <h3 class="title mb-20 text-theme-colored1">
-                              Sports
+                              Senior KG
                             </h3>
                             <p class="lead">
-                              Candibrain Preschool believes in the holistic
-                              development of children, and our sports activities
-                              are designed to promote physical fitness,
-                              coordination, and teamwork.
+                              The senior program at Candibrain Preschool is
+                              designed for children aged{" "}
+                              <span className="text-theme-colored1">
+                                {" "}
+                                4.5 to 5.5{" "}
+                              </span>{" "}
+                              years, preparing them for a smooth transition to
+                              primary school. This program builds upon the
+                              skills developed in earlier stages, focusing on
+                              advanced literacy, numeracy, and critical
+                              thinking.
                             </p>
                             <p>
-                              Through a variety of age-appropriate games and
-                              activities, children not only enhance their motor
-                              skills but also develop a positive attitude
-                              towards an active and healthy lifestyle.
+                              Our experienced educators create a dynamic and
+                              engaging learning environment, fostering a love
+                              for learning and curiosity about the world. The
+                              senior program equips children with the confidence
+                              and knowledge needed to embark on their academic
+                              journey successfully.
                             </p>
                             <div class="row mb-20">
                               <div class="col-sm-6">
@@ -348,15 +398,16 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Basic Motor Skills
+                                      Advanced reading and comprehension skills.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Team Building Games
+                                      Mastery of basic mathematics concepts.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Introduction to Sports
+                                      Introduction to basic science and
+                                      environmental awareness.
                                     </li>
                                   </ul>
                                 </div>
@@ -366,15 +417,18 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Obstacle Courses{" "}
+                                      Critical thinking and problem-solving
+                                      activities.{" "}
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Sportsmanship Values
+                                      Collaborative projects for teamwork and
+                                      communication.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
-                                      Fun Fitness Challenges
+                                      Individualized learning plans to address
+                                      specific learning needs.
                                     </li>
                                   </ul>
                                 </div>
@@ -404,19 +458,21 @@ const AcitivityScreen = () => {
                         <div class="col-lg-6 col-xl-7">
                           <div class="tab-left-part mb-lg-40">
                             <h3 class="title mb-20 text-theme-colored4">
-                              Playground
+                              Day Care Program
                             </h3>
                             <p class="lead">
-                              Play is an integral part of early childhood
-                              development, and our outdoor and indoor play areas
-                              are designed to promote physical activity, social
-                              interaction, and imaginative play.
+                              Our day care program at Candibrain Preschool
+                              provides a safe and nurturing environment for
+                              children of various age groups, ensuring their
+                              well-being while parents are at work or otherwise
+                              occupied.
                             </p>
                             <p>
-                              These spaces provide opportunities for children to
-                              explore, climb, and engage in activities that
-                              enhance their gross motor skills and foster a
-                              sense of teamwork.
+                              With a focus on creating a home away from home,
+                              our day care program includes a balance of
+                              structured activities and free play, fostering
+                              socialization, creativity, and emotional
+                              development.
                             </p>
                             <div class="row mb-20">
                               <div class="col-sm-6">
@@ -424,15 +480,17 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
-                                      Safe Exploration
+                                      Safe and secure environment with trained
+                                      caregivers.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
-                                      Imaginative Play
+                                      Balanced schedule including nap time,
+                                      meals, and play.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
-                                      Social Interaction
+                                      Age-appropriate learning activities.
                                     </li>
                                   </ul>
                                 </div>
@@ -442,15 +500,17 @@ const AcitivityScreen = () => {
                                   <ul class="list-unstyled text-black">
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
-                                      Physical Fitness{" "}
+                                      Outdoor play for physical development.{" "}
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
-                                      Nature Connection
+                                      Regular updates and communication with
+                                      parents.
                                     </li>
                                     <li>
                                       <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
-                                      Structured Games
+                                      Flexible hours to accommodate varying
+                                      schedules.
                                     </li>
                                   </ul>
                                 </div>
