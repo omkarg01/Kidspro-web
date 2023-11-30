@@ -209,7 +209,7 @@ const EnrollScreen = () => {
                       </div>
                     </div> */}
                   </div>
-                  <div class="mb-3 mb-10">
+                  {/* <div class="mb-3 mb-10">
                     <textarea
                       name="form_message"
                       class="form-control required"
@@ -217,7 +217,7 @@ const EnrollScreen = () => {
                       rows="5"
                       aria-required="true"
                     ></textarea>
-                  </div>
+                  </div> */}
                   <div class="mb-3 tm-sc-button mb-0 mt-20">
                     <input
                       name="form_botcheck"

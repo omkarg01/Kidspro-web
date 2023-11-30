@@ -383,6 +383,11 @@ const Header = () => {
                           <Link to={"news"}>News</Link>
                         </li>
 
+                        
+                        <li className="menu-item">
+                          <Link to={"contact"}>Reach Us</Link>
+                        </li>
+
                         {/* Contacts */}
                         {/* <li className="menu-item">
                           <a href="#">Contact Us</a>
