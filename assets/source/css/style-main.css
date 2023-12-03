@@ -2108,8 +2108,8 @@ header#header .nav-side-icon-list > li .custom-button {
 }
 
 /* Active/hover state (Menu items) */
-.menuzord-menu > li.active > a,
-.menuzord-menu > li:hover > a {
+.menuzord-menu > li.active > Link,
+.menuzord-menu > li:hover > Link {
   color: #333;
 }
 

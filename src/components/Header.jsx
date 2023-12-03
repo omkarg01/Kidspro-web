@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import NavDropdown from "react-bootstrap/NavDropdown";
 
 const Header = () => {
   return (
@@ -56,412 +60,58 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <div className="header-nav tm-enable-navbar-hide-on-scroll">
-          <div className="header-nav-wrapper navbar-scrolltofixed">
-            <div className="menuzord-container header-nav-container">
-              <div className="container position-relative">
-                <div className="row header-nav-col-row">
-                  <div
-                    className="col-sm-auto align-self-center"
-                    style={{ height: "120px" }}
-                  >
-                    <a
-                      className="menuzord-brand site-brand"
-                      href="index-mp-layout1.html"
-                      style={{ height: "80px", width: "120px" }}
-                    >
-                      <img
-                        className="logo-default logo-1x"
-                        src="images/CandiBrain.png"
-                        alt="Logo"
-                        style={{
-                          height: "100%",
-                          width: "100%",
-                          marginBlock: "10px",
-                        }}
-                      />
-                      <img
-                        className="logo-default logo-2x retina"
-                        src="images/CandiBrain.png"
-                        alt="Logo"
-                        style={{ width: "60%", height: "80%" }}
-                      />
-                    </a>
-                  </div>
-                  <div className="col col-xl-auto  pe-0 align-self-center">
-                    <nav
-                      id="top-primary-nav"
-                      className="menuzord theme-color1"
-                      data-effect="fade"
-                      data-animation="none"
-                      data-align="right"
-                    >
-                      {/* <a
-                        href="javascript:void(0)"
-                        class="showhide"
-                        style={{display: 'inline'}}
-                      >
-                        <em></em>
-                        <em></em>
-                        <em></em>
-                      </a> */}
-                      <ul id="main-nav" className="menuzord-menu">
-                        <li className="active menu-item">
-                          <a href="/">Home</a>
-                          {/* <div className="megamenu megamenu-fullwidth megamenu-position-left">
-                            <div className="megamenu-row">
-                              <div className="col3">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <a className="tm-submenu-title" href="#">
-                                      <span>All Main Layouts</span>
-                                    </a>
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-mp-layout1.html">
-                                          index Multipage Layout1
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-mp-layout2.html">
-                                          index Multipage Layout2
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-mp-layout3.html">
-                                          index Multipage Layout3
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-mp-layout4.html">
-                                          index Multipage Layout4
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div className="col3">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <a className="tm-submenu-title" href="#">
-                                      <span>Single Layouts</span>{" "}
-                                      <span className="badge bg-danger">
-                                        New
-                                      </span>
-                                    </a>
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-sp-layout1.html">
-                                          index Single Layout1
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-sp-layout2.html">
-                                          index Single Layout2
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-sp-layout3.html">
-                                          index Single Layout3
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                  <li className="menu-item">
-                                    <a className="tm-submenu-title" href="#">
-                                      <span>Boxed Layouts</span>{" "}
-                                      <span className="badge bg-danger">
-                                        New
-                                      </span>
-                                    </a>
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-boxed-mp-layout1.html">
-                                          Boxed Multipage
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-boxed-mp-layout2.html">
-                                          Boxed Multipage2
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-boxed-mp-layout3.html">
-                                          Boxed Multipage3
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-boxed-sp-layout1.html">
-                                          Boxed Single
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-boxed-sp-layout2.html">
-                                          Boxed Single2
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-boxed-sp-layout3.html">
-                                          Boxed Single3
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div className="col3">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <a className="tm-submenu-title" href="#">
-                                      <span>Dark Layouts</span>{" "}
-                                      <span className="badge bg-danger">
-                                        New
-                                      </span>
-                                    </a>
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-dark-mp-layout1.html">
-                                          Dark Layout1
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-dark-mp-layout2.html">
-                                          Dark Layout2
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-dark-mp-layout3.html">
-                                          Dark Layout3
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                  <li className="menu-item">
-                                    <a className="tm-submenu-title" href="#">
-                                      <span>Vertical Nav</span>{" "}
-                                      <span className="badge bg-danger">
-                                        New
-                                      </span>
-                                    </a>
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-vertical-nav-mp-layout1.html">
-                                          Vertical Nav Layout1
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-vertical-nav-sp-layout1.html">
-                                          Vertical Nav Layout1
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                              <div className="col3">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <a className="tm-submenu-title" href="#">
-                                      <span>RTL Layouts</span>{" "}
-                                      <span className="badge bg-danger">
-                                        New
-                                      </span>
-                                    </a>
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-rtl-layout1.html">
-                                          RTL Layout1
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-rtl-layout2.html">
-                                          RTL Layout2
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-rtl-layout3.html">
-                                          RTL Layout3
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                  <li className="menu-item">
-                                    <a className="tm-submenu-title" href="#">
-                                      <span>Menu Full Page</span>{" "}
-                                      <span className="badge bg-danger">
-                                        New
-                                      </span>
-                                    </a>
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-menu-full-page-mp.html">
-                                          Menu Full Page Multi
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-menu-full-page-sp.html">
-                                          Menu Full Page Single
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div> */}
-                        </li>
-
-                        {/* About Us */}
-                        <li className="menu-item">
-                          <a href="about">About us</a>
-                          {/* <div className="megamenu megamenu-fullwidth megamenu-position-left">
-                            <div className="megamenu-row">
-                              <div className="col12">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <Link to="about">About Us</Link>
-                                      </li>
-                                      <li>
-                                        <Link to="vision">Vision</Link>
-                                      </li>
-                                      <li>
-                                        <Link to="mission">Mission</Link>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div> */}
-                        </li>
-
-                        {/* Programs */}
-                        <li className="menu-item">
-                          <a href="program">Programs</a>
-                          {/* <div className="megamenu megamenu-fullwidth megamenu-position-left">
-                            <div className="megamenu-row">
-                              <div className="col12">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <Link to={"activities"}>Activity</Link>
-                                      </li>
-                                     <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Vission
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Mission
-                                        </a>
-                                      </li> 
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div> */}
-                        </li>
-
-                        {/* Gallery */}
-                        <li className="menu-item">
-                          <Link to={"gallery"}>Gallery</Link>
-                        </li>
-
-                        {/* Events */}
-                        {/* <li className="menu-item">
-                          <Link to={"events"}></Link>
-                        </li> */}
-
-                        {/* News */}
-                        <li className="menu-item">
-                          <Link to={"news-events"}>News & Events</Link>
-                        </li>
-
-                        
-                        <li className="menu-item">
-                          <Link to={"contact"}>Reach Us</Link>
-                        </li>
-
-                        {/* Contacts */}
-                        {/* <li className="menu-item">
-                          <a href="#">Contact Us</a>
-                          <div className="megamenu megamenu-fullwidth megamenu-position-left">
-                            <div className="megamenu-row">
-                              <div className="col12">
-                                <ul className="list-unstyled list-dashed">
-                                  <li className="menu-item">
-                                    <ul className="list-unstyled">
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          About Us
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Vission
-                                        </a>
-                                      </li>
-                                      <li>
-                                        <a href="index-hot-slider-split-home-layout1.html">
-                                          Mission
-                                        </a>
-                                      </li>
-                                    </ul>
-                                  </li>
-                                </ul>
-                              </div>
-                            </div>
-                          </div>
-                        </li> */}
-                      </ul>
-                    </nav>
-                  </div>
-                  <div className="col-sm-auto align-self-center element text-center text-md-start d-none d-xl-block border-left-3px">
-                    <ul className="styled-icons icon-gray icon-theme-colored1 icon-md icon-circled clearfix pl-30">
-                      <li>
-                        <a className="social-link" href="#">
-                          <i className="fab fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a className="social-link" href="#">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a className="social-link" href="#">
-                          <i className="fab fa-youtube"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div className="row d-block d-xl-none">
-                  <div className="col-12">
-                    <nav
-                      id="top-primary-nav-clone"
-                      className="menuzord d-block d-xl-none default menuzord-color-default menuzord-border-boxed menuzord-responsive"
-                      data-effect="slide"
-                      data-animation="none"
-                      data-align="right"
-                    >
-                      <ul
-                        id="main-nav-clone"
-                        className="menuzord-menu menuzord-right menuzord-indented scrollable"
-                      ></ul>
-                    </nav>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+          <Container>
+            <Navbar.Brand href="#home">
+              <img
+                src="images/CandiBrain.png"
+                width="100"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+              />
+            </Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="me-auto font-size-20 gap-4">
+                <Nav.Link href="#features">Home</Nav.Link>
+                <Nav.Link href="#pricing">About Us</Nav.Link>
+                <NavDropdown title="Programs" id="collapsible-nav-dropdown">
+                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.2">
+                    Another action
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="#action/3.3">
+                    Something
+                  </NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item href="#action/3.4">
+                    Separated link
+                  </NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link href="#pricing">Gallery</Nav.Link>
+                <Nav.Link href="#pricing2">News & Events</Nav.Link>
+                <Nav.Link href="#pricing3">Reach Us</Nav.Link>
+              </Nav>
+              <Nav className="font-size-20">
+                <li>
+                  <Nav.Link className="social-link" href="#">
+                    <i className="fab fa-facebook"></i>
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link className="social-link" href="#">
+                    <i className="fab fa-twitter"></i>
+                  </Nav.Link>
+                </li>
+                <li>
+                  <Nav.Link className="social-link" href="#">
+                    <i className="fab fa-youtube"></i>
+                  </Nav.Link>
+                </li>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
       </header>
     </>
   );
