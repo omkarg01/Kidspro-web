@@ -95,7 +95,7 @@ const Header = () => {
                     Program
                   </Nav.Link>
                   <Nav.Link
-                    to="/"
+                    to="program"
                     as={NavLink}
                     className={styles.navLink}
                   >
