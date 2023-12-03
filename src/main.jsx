@@ -14,6 +14,7 @@ import ProgramScreen from './pages/ProgramScreen.jsx'
 import HomeScreen from './pages/Homescreen.jsx'
 import EnrollScreen from './pages/EnrollScreen.jsx'
 import ContactScreen from './pages/ContactScreen.jsx'
+import "./index.css";
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App/>}>

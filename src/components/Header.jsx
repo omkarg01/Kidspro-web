@@ -1,16 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import styled from "styled-components";
+import styles from "./NavBar.module.css";
 
 const Header = () => {
+  const location = useLocation();
+
   return (
     <>
       {/* <!-- Header --> */}
       <header id="header" className="header header-layout-type-header-2rows">
         <div className="header-top">
-          <div className="container-fluid">
+          <div className="" style={{ width: "80vw", marginInline: "auto" }}>
             <div className="row">
               <div className="col-xl-auto header-top-left align-self-center text-center text-xl-start">
                 <ul className="element contact-info">
@@ -60,9 +64,9 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary">
+        <Navbar collapseOnSelect expand="lg" className="">
           <Container>
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/">
               <img
                 src="images/CandiBrain.png"
                 width="100"
@@ -72,25 +76,45 @@ const Header = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto font-size-20 gap-4">
-                <Nav.Link href="#features">Home</Nav.Link>
-                <Nav.Link href="#pricing">About Us</Nav.Link>
-                <NavDropdown title="Programs" id="collapsible-nav-dropdown">
-                  <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.2">
-                    Another action
-                  </NavDropdown.Item>
-                  <NavDropdown.Item href="#action/3.3">
-                    Something
-                  </NavDropdown.Item>
-                  <NavDropdown.Divider />
-                  <NavDropdown.Item href="#action/3.4">
-                    Separated link
-                  </NavDropdown.Item>
+              <Nav className="me-auto font-size-20">
+                <Nav.Link as={NavLink} to="/" className={styles.navLink}>
+                  Home
+                </Nav.Link>
+                <Nav.Link as={NavLink} to="/about" className={styles.navLink}>
+                  About Us
+                </Nav.Link>
+                <NavDropdown
+                  title="Programs"
+                  id="collapsible-nav-dropdown"
+                >
+                  <Nav.Link
+                    to="program"
+                    as={NavLink}
+                    className={styles.navLink}
+                  >
+                    Program
+                  </Nav.Link>
+                  <Nav.Link
+                    to="/"
+                    as={NavLink}
+                    className={styles.navLink}
+                  >
+                    Hobbies
+                  </Nav.Link>
                 </NavDropdown>
-                <Nav.Link href="#pricing">Gallery</Nav.Link>
-                <Nav.Link href="#pricing2">News & Events</Nav.Link>
-                <Nav.Link href="#pricing3">Reach Us</Nav.Link>
+                <Nav.Link as={NavLink} to="/gallery" className={styles.navLink}>
+                  Gallery
+                </Nav.Link>
+                <Nav.Link
+                  as={NavLink}
+                  to="/news-events"
+                  className={styles.navLink}
+                >
+                  News & Events
+                </Nav.Link>
+                <Nav.Link as={NavLink} to="/contact" className={styles.navLink}>
+                  Reach Us
+                </Nav.Link>
               </Nav>
               <Nav className="font-size-20">
                 <li>

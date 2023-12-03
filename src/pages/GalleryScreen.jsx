@@ -48,17 +48,24 @@ const Gallery = () => {
                       className=""
                       data-filter=".laboratory"
                     >
-                      Criminal
+                      Infra
                     </a>
                     <a href="#surgery" className="" data-filter=".surgery">
-                      Business
+                      Activities
                     </a>
                     <a
                       href="#orthopaedics"
                       className=""
                       data-filter=".orthopaedics"
                     >
-                      Health
+                      Outdoor
+                    </a>
+                    <a
+                      href="#orthopaedics"
+                      className=""
+                      data-filter=".orthopaedics"
+                    >
+                      Celebrations
                     </a>
                   </div>
                   {/* <!-- End Isotope Filter --> */}

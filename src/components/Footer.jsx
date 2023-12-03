@@ -22,9 +22,7 @@ const Footer = () => {
                     />
                   </div>
                   <div className="description">
-                    203, Envato Labs, Behind Alis Steet, Melbourne,
-                    Australia.immersion along the information close the loop on
-                    focusing
+                    Vilankurchi, Saravanampatti, Coimbatore
                   </div>
                   <ul className="mb-30">
                     <li className="contact-phone">
@@ -32,7 +30,7 @@ const Footer = () => {
                         <i className="flaticon-contact-042-phone-1"></i>
                       </div>
                       <div className="text">
-                        <a href="tel:+123-456-789">+123-456-789</a>
+                        <a href="tel:+918925353323">+918925353323</a>
                       </div>
                     </li>
                     <li className="contact-email">
@@ -40,8 +38,8 @@ const Footer = () => {
                         <i className="flaticon-contact-043-email-1"></i>
                       </div>
                       <div className="text">
-                        <a href="mailto:contact@yourdomain.com">
-                          contact@yourdomain.com
+                        <a href="mailto:contact@candibrainpreschool.com">
+                          contact@candibrainpreschool.com
                         </a>
                       </div>
                     </li>
@@ -50,13 +48,15 @@ const Footer = () => {
                         <i className="flaticon-contact-035-website"></i>
                       </div>
                       <div className="text">
-                        <a href="http://yourdomain.com">yourdomain.com</a>
+                        <a href="http://yourdomain.com">
+                          candibrainpreschool.com
+                        </a>
                       </div>
                     </li>
                   </ul>
                 </div>
               </div>
-              <div className="col-md-6 col-lg-6 col-xl-2">
+              {/* <div className="col-md-6 col-lg-6 col-xl-2">
                 <div className="widget widget_nav_menu">
                   <h4 className="widget-title">Services</h4>
                   <ul>
@@ -77,8 +77,8 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div className="col-md-6 col-lg-6 col-xl-3">
+              </div> */}
+              {/* <div className="col-md-6 col-lg-6 col-xl-3">
                 <div className="widget">
                   <h4 className="widget-title">Twitter Feed</h4>
                   <div
@@ -87,7 +87,7 @@ const Footer = () => {
                     data-count="2"
                   ></div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-md-6 col-lg-6 col-xl-3">
                 <div className="widget">
                   <h4 className="widget-title">Opening Hours</h4>
