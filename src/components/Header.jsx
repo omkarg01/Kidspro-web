@@ -13,7 +13,7 @@ const Header = () => {
       {/* <!-- Header --> */}
       <header id="header" className="header header-layout-type-header-2rows">
         <div className="header-top">
-          <div className="" style={{ width: "80vw", marginInline: "auto" }}>
+          <div className="" >
             <div className="row">
               <div className="col-xl-auto header-top-left align-self-center text-center text-xl-start">
                 <ul className="element contact-info">
