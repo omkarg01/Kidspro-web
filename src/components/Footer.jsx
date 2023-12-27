@@ -119,7 +119,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="row">
-              <div className="col-sm-6 col-md-3 col-lg-3">
+              {/* <div className="col-sm-6 col-md-3 col-lg-3">
                 <div className="widget dark">
                   <h5 className="widget-title mb-10">Call Us Now</h5>
                   <div className="text-gray">
@@ -127,7 +127,7 @@ const Footer = () => {
                     +12 3 1234 5678
                   </div>
                 </div>
-              </div>
+              </div> */}
               <div className="col-sm-6 col-md-4 col-lg-4">
                 <div className="widget dark">
                   <h5 className="widget-title mb-10">Connect With Us</h5>

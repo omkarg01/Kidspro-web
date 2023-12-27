@@ -14,7 +14,7 @@ const Header = () => {
       <header id="header" className="header header-layout-type-header-2rows">
         <div className="header-top">
           <div className="" >
-            <div className="row">
+            <div className="row mx-5">
               <div className="col-xl-auto header-top-left align-self-center text-center text-xl-start">
                 <ul className="element contact-info text-black">
                   <li className="contact-phone">
