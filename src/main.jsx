@@ -11,7 +11,7 @@ import AboutScreen from './pages/AboutScreen.jsx'
 import MissionScreen from './pages/MissionScreen.jsx'
 import VisionScreen from './pages/VisionScreen.jsx'
 import ProgramScreen from './pages/ProgramScreen.jsx'
-import HomeScreen from './pages/Homescreen.jsx'
+import HomeScreen from './pages/HomeScreen.jsx'
 import EnrollScreen from './pages/EnrollScreen.jsx'
 import ContactScreen from './pages/ContactScreen.jsx'
 import "./index.css";

@@ -95,15 +95,15 @@ const Footer = () => {
                     <ul>
                       <li className="clearfix">
                         {" "}
-                        <span> Mon - Tues : </span>
-                        <div className="value"> 6.00 am - 10.00 pm </div>
+                        <span> Mon - Fri : </span>
+                        <div className="value"> 8.00 am - 8.00 pm </div>
                       </li>
-                      <li className="clearfix">
+                       <li className="clearfix">
                         {" "}
-                        <span> Wednes - Thurs :</span>
-                        <div className="value"> 8.00 am - 6.00 pm </div>
+                        <span> Sat - Sun :</span>
+                        <div className="value"> Closed </div>
                       </li>
-                      <li className="clearfix">
+                      {/* <li className="clearfix">
                         {" "}
                         <span> Fri :</span>
                         <div className="value"> 3.00 pm - 8.00 pm </div>
@@ -112,7 +112,7 @@ const Footer = () => {
                         {" "}
                         <span> Sun : </span>
                         <div className="value"> Closed </div>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

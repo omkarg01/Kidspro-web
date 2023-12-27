@@ -16,7 +16,7 @@ const Header = () => {
           <div className="" >
             <div className="row">
               <div className="col-xl-auto header-top-left align-self-center text-center text-xl-start">
-                <ul className="element contact-info">
+                <ul className="element contact-info text-black">
                   <li className="contact-phone">
                     <i className="fa fa-phone font-icon sm-display-block"></i>{" "}
                     Tel: +91 8925353323
@@ -33,7 +33,7 @@ const Header = () => {
               </div>
               <div className="col-xl-auto ms-xl-auto header-top-right align-self-center text-center text-xl-end">
                 <div className="element pt-0 pb-0">
-                  <ul className="styled-icons icon-dark icon-theme-colored1 icon-circled clearfix">
+                  <ul className="styled-icons icon-dark icon-theme-colored3 icon-circled clearfix">
                     <li>
                       <a className="social-link" href="#">
                         <i className="fab fa-facebook"></i>

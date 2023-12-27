@@ -7,7 +7,7 @@
 }
 
 .navLink {
-  color: #FF9800;
+  color: #ff81d9;
   font-weight: 300;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -19,5 +19,5 @@
 }
 
 .navLink:hover {
-  background-color: #FF9800;
+  background-color: #ff81d9;
 }

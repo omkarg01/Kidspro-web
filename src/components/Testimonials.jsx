@@ -10,7 +10,7 @@ const Testimonials = () => {
               <div className="tm-sc-section-title section-title text-center">
                 <div className="title-wrapper">
                   <h2 className="title">Happy <span className="text-theme-colored2">Parent's Say</span></h2>
-                  <p data-tm-text-color="#fff">There are many variations of passages. But the majority have suffered alteration in some form, by injected humour, or randomised words.</p>
+                  {/* <p data-tm-text-color="#fff">There are many variations of passages. But the majority have suffered alteration in some form, by injected humour, or randomised words.</p> */}
                 </div>
               </div>
             </div>

@@ -4,7 +4,7 @@ $URL: https://themeforest.net/user/ThemeMascot
 
 ----------------------------------------- */
 :root {
-  --theme-color1: #FF9800;
+  --theme-color1: #ff81d9;
   --theme-color1-rgb: 255, 152, 0;
   --theme-color2: #00BCD4;
   --theme-color2-rgb: 0, 188, 212;
@@ -1362,7 +1362,7 @@ ul.list.theme-colored4.check li:before,
  * -----------------------------------------------
 */
 header#header .header-top {
-  background-color: #FF9800; }
+  background-color: #ff81d9; }
   header#header .header-top.bg-theme-colored2 .contact-info li .font-icon {
     color: #FF9800; }
 
