@@ -17,6 +17,7 @@ import ContactScreen from './pages/ContactScreen.jsx'
 import "./index.css";
 import ActivityScreen from './pages/ActivityScreen.jsx'
 import ActivityListScreen from './pages/ActivityListScreen.jsx'
+import ComingSoonScreen from './pages/ComingSoonScreen.jsx'
 
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path='/' element={<App/>}>
@@ -32,6 +33,8 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/program' element={<ProgramScreen/>}/>
     <Route path='/enroll' element={<EnrollScreen/>}/>
     <Route path='/contact' element={<ContactScreen/>}/>
+    <Route path='/library' element={<ComingSoonScreen/>}/>
+    <Route path='/blogs' element={<ComingSoonScreen/>}/>
   </Route>
 ))
 

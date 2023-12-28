@@ -114,6 +114,12 @@ const Header = () => {
                 <Nav.Link as={NavLink} to="/contact" className={styles.navLink}>
                   Reach Us
                 </Nav.Link>
+                <Nav.Link as={NavLink} to="/library" className={styles.navLink}>
+                  Library
+                </Nav.Link>
+                <Nav.Link as={NavLink} to="/blogs" className={styles.navLink}>
+                  Blogs
+                </Nav.Link>
               </Nav>
               <Nav className="font-size-20">
                 <li>
