@@ -1,190 +1,242 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import PageTitle from "../components/PageTitle";
 import { Link } from "react-router-dom";
 
-const NewsListScreen = () => {
+const ActivityListScreen = () => {
+  const [videoGallery, setVideoGallery] = useState([]);
+
+  const fetchData = async () => {
+    const apiUrl = "https://api.candibrain.com/api/read-only-video-gallery/";
+    try {
+      const response = await fetch(apiUrl, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        // body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log("Data fetched successfully!", data);
+        // You may want to reset the form or handle success in some way
+        setVideoGallery(data.results);
+      } else {
+        console.error("Failed to submit form");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <>
       {/* <!-- Section: page title --> */}
-      <PageTitle title={"News & Events"} />
+      <PageTitle title={"Activity"} />
 
       {/* <!-- Section: News List Screen --> */}
-      <section
-        class="bg-img-cover bg-img-center"
-        data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
-      >
-        <div class="container pb-md-120" data-tm-padding-bottom="205px">
-          <div class="section-title">
-            <div class="row justify-content-center">
-              <div class="col-lg-8 col-xl-9">
-                <div class="tm-sc-section-title section-title text-center">
-                  <div class="title-wrapper">
-                    <h2 class="title">
-                      Our <span class="text-theme-colored3">Programs</span>
-                    </h2>
-                    <p>
-                      Embark on a journey with Candibrain Preschool as we guide
-                      your child through five distinct programs—{" "}
-                      <span className="text-theme-colored1"> Playgroup</span>,{" "}
-                      <span className="text-theme-colored2">Nursery </span>,{" "}
-                      <span className="text-theme-colored3"> Junior KG</span>,{" "}
-                      <span className="text-theme-colored1"> Senior KG </span>,
-                      and{" "}
-                      <span className="text-theme-colored4"> Day Care </span>.
-                      From the early stages of socialization in Playgroup to the
-                      advanced readiness for primary school in the Senior
-                      Program, each program is crafted to stimulate cognitive
-                      growth, foster essential skills, and instill a lifelong
-                      love for learning.
-                    </p>
+      {videoGallery ? (
+        <section
+          class="bg-img-cover bg-img-center"
+          data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
+        >
+          <div class="container pb-md-120" data-tm-padding-bottom="205px">
+            <div class="section-title">
+              <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-9">
+                  <div class="tm-sc-section-title section-title text-center">
+                    <div class="title-wrapper">
+                      <h2 class="title">
+                        Our <span class="text-theme-colored3">Programs</span>
+                      </h2>
+                      <p>
+                        Embark on a journey with Candibrain Preschool as we
+                        guide your child through five distinct programs—{" "}
+                        <span className="text-theme-colored1"> Playgroup</span>,{" "}
+                        <span className="text-theme-colored2">Nursery </span>,{" "}
+                        <span className="text-theme-colored3"> Junior KG</span>,{" "}
+                        <span className="text-theme-colored1"> Senior KG </span>
+                        , and{" "}
+                        <span className="text-theme-colored4"> Day Care </span>.
+                        From the early stages of socialization in Playgroup to
+                        the advanced readiness for primary school in the Senior
+                        Program, each program is crafted to stimulate cognitive
+                        growth, foster essential skills, and instill a lifelong
+                        love for learning.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="section-content">
-            <div class="row">
-              <div class="col-sm-12">
-                <div class="tm-sc-departments tm-sc-departments-tab">
-                  <ul class="nav nav-tabs">
-                    <li class="bg-theme-colored1 active">
-                      {" "}
-                      <a
-                        href="#tab-yoga-tabs"
-                        class="active show"
-                        data-bs-toggle="tab"
-                      >
+            <div class="section-content">
+              <div class="row">
+                <div class="col-sm-12">
+                  <div class="tm-sc-departments tm-sc-departments-tab">
+                    <ul class="nav nav-tabs">
+                      <li class="bg-theme-colored1 active">
                         {" "}
-                        <i class="fas fa-music"></i>
-                        <img
+                        {console.log("videoGallery", videoGallery)}
+                        <Link
+                          to="1"
+                          state={{ data: videoGallery, type: "yoga" }}
+                          class="show"
+                          // data-bs-toggle="tab"
+                        >
+                          {" "}
+                          <i class="fas fa-music"></i>
+                          <img
                             // src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/1.jpg"
                             src="../../"
                             alt=""
                             class="w-5 mb-md-3"
                           />
-                        <span>Yoga</span>{" "}
-                      </a>
-                    </li>
-                    <li class="bg-theme-colored2">
-                      {" "}
-                      <a href="#tab-karate-tabs" class="" data-bs-toggle="tab">
+                          <span>Yoga</span>{" "}
+                        </Link>
+                      </li>
+                      <li class="bg-theme-colored2">
                         {" "}
-                        <i class="fas fa-graduation-cap"></i>{" "}
-                        <span>Karate</span>{" "}
-                      </a>
-                    </li>
-                    <li class="bg-theme-colored3">
-                      {" "}
-                      <a
-                        href="#tab-robotics-tabs"
-                        class=""
-                        data-bs-toggle="tab"
-                      >
+                        <Link
+                          to="1"
+                          state={{ data: videoGallery, type: "karate" }}
+                          class=""
+                          // data-bs-toggle="tab"
+                        >
+                          {" "}
+                          <i class="fas fa-graduation-cap"></i>{" "}
+                          <span>Karate</span>{" "}
+                        </Link>
+                      </li>
+                      <li class="bg-theme-colored3">
                         {" "}
-                        <i class="fas fa-paint-brush"></i> <span>Robotics</span>{" "}
-                      </a>
-                    </li>
-                    <li class="bg-theme-colored1">
-                      {" "}
-                      <a href="#tab-coding-tabs" class="" data-bs-toggle="tab">
+                        <Link
+                          to="1"
+                          state={{ data: videoGallery, type: "robotics" }}
+                          class=""
+                          // data-bs-toggle="tab"
+                        >
+                          {" "}
+                          <i class="fas fa-paint-brush"></i>{" "}
+                          <span>Robotics</span>{" "}
+                        </Link>
+                      </li>
+                      <li class="bg-theme-colored4">
                         {" "}
-                        <i class="far fa-life-ring"></i> <span>Coding</span>{" "}
-                      </a>
-                    </li>
-                    <li class="bg-theme-colored4">
-                      {" "}
-                      <a
-                        href="#tab-handwriting-tabs"
-                        class=""
-                        data-bs-toggle="tab"
-                      >
+                        <Link
+                          to="1"
+                          state={{ data: videoGallery, type: "coding" }}
+                          class=""
+                          // data-bs-toggle="tab"
+                        >
+                          {" "}
+                          <i class="far fa-life-ring"></i> <span>Coding</span>{" "}
+                        </Link>
+                      </li>
+                      <li class="bg-theme-colored1">
                         {" "}
-                        <i class="fas fa-trophy"></i> <span>Handwriting</span>{" "}
-                      </a>
-                    </li>
-                  </ul>
-                  <br />
-                  <br />
-                  <ul class="nav nav-tabs">
-                    <li class="bg-theme-colored1 active">
-                      {" "}
-                      <a
-                        href="#tab-yoga-tabs"
-                        class="active show"
-                        data-bs-toggle="tab"
-                      >
+                        <Link
+                          to="1"
+                          state={{ data: videoGallery, type: "handwriting" }}
+                          class=""
+                          // data-bs-toggle="tab"
+                        >
+                          {" "}
+                          <i class="fas fa-trophy"></i> <span>Handwriting</span>{" "}
+                        </Link>
+                      </li>
+                    </ul>
+                    <br />
+                    <br />
+                    <ul class="nav nav-tabs">
+                      <li class="bg-theme-colored3 active">
                         {" "}
-                        <i class="fas fa-music"></i>
-                        <img
-                            // src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/1.jpg"
-                            src="../../"
-                            alt=""
-                            class="w-5 mb-md-3"
-                          />
-                        <span>Yoga</span>{" "}
-                      </a>
-                    </li>
-                    <li class="bg-theme-colored2">
-                      {" "}
-                      <a href="#tab-karate-tabs" class="" data-bs-toggle="tab">
+                        <Link
+                          to="1"
+                          state={{ data: videoGallery, type: "abacus" }}
+                          class="active show"
+                          // data-bs-toggle="tab"
+                        >
+                          {" "}
+                          <i class="fas fa-music"></i> <span>Abacus</span>{" "}
+                        </Link>
+                      </li>
+                      <li class="bg-theme-colored4">
                         {" "}
-                        <i class="fas fa-graduation-cap"></i>{" "}
-                        <span>Karate</span>{" "}
-                      </a>
-                    </li>
-                    <li class="bg-theme-colored3">
-                      {" "}
-                      <a
-                        href="#tab-robotics-tabs"
-                        class=""
-                        data-bs-toggle="tab"
-                      >
+                        <Link
+                          to="1"
+                          state={{ data: videoGallery, type: "fun-activity" }}
+                          class=""
+                          // data-bs-toggle="tab"
+                        >
+                          {" "}
+                          <i class="fas fa-graduation-cap"></i>{" "}
+                          <span>Fun Activity</span>{" "}
+                        </Link>
+                      </li>
+                      <li class="bg-theme-colored1">
                         {" "}
-                        <i class="fas fa-paint-brush"></i> <span>Robotics</span>{" "}
-                      </a>
-                    </li>
-                    <li class="bg-theme-colored1">
-                      {" "}
-                      <a href="#tab-coding-tabs" class="" data-bs-toggle="tab">
+                        <Link
+                          to="1"
+                          state={{ data: videoGallery, type: "dance" }}
+                          class=""
+                          // data-bs-toggle="tab"
+                        >
+                          {" "}
+                          <i class="fas fa-graduation-cap"></i>{" "}
+                          <span>Dance & Music</span>{" "}
+                        </Link>
+                      </li>
+                      <li class="bg-theme-colored2">
                         {" "}
-                        <i class="far fa-life-ring"></i> <span>Coding</span>{" "}
-                      </a>
-                    </li>
-                    <li class="bg-theme-colored4">
-                      {" "}
-                      <a
-                        href="#tab-handwriting-tabs"
-                        class=""
-                        data-bs-toggle="tab"
-                      >
+                        <Link
+                          to="1"
+                          state={{ data: videoGallery, type: "library" }}
+                          class=""
+                          // data-bs-toggle="tab"
+                        >
+                          {" "}
+                          <i class="far fa-life-ring"></i> <span>Library</span>{" "}
+                        </Link>
+                      </li>
+                      <li class="bg-theme-colored3">
                         {" "}
-                        <i class="fas fa-trophy"></i> <span>Handwriting</span>{" "}
-                      </a>
-                    </li>
-                  </ul>
-
-                 
+                        <Link
+                          to="1"
+                          class=""
+                          state={{ data: videoGallery, type: "chess" }}
+                        >
+                          {" "}
+                          <i class="fas fa-trophy"></i> <span>Chess</span>{" "}
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
+              <br />
             </div>
-            <br />
-            
           </div>
-        </div>
-        <div class="tm-floating-objects">
-          <span
-            class="z-index-1 bg-img-cover"
-            data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/f2.png"
-            data-tm-width="100%"
-            data-tm-height="143"
-            data-tm-top="auto"
-            data-tm-bottom="0"
-            data-tm-left="0"
-            data-tm-right="0"
-            data-tm-opacity="-100px"
-          ></span>
-        </div>
-      </section>
+          <div class="tm-floating-objects">
+            <span
+              class="z-index-1 bg-img-cover"
+              data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/f2.png"
+              data-tm-width="100%"
+              data-tm-height="143"
+              data-tm-top="auto"
+              data-tm-bottom="0"
+              data-tm-left="0"
+              data-tm-right="0"
+              data-tm-opacity="-100px"
+            ></span>
+          </div>
+        </section>
+      ) : (
+        <p>Loading API data...</p>
+      )}
 
       {/* <!-- News --> */}
       {/* <section>
@@ -577,4 +629,4 @@ const NewsListScreen = () => {
   );
 };
 
-export default NewsListScreen;
+export default ActivityListScreen;

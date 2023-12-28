@@ -106,10 +106,10 @@ const Header = () => {
                 </Nav.Link>
                 <Nav.Link
                   as={NavLink}
-                  to="/news-events"
+                  to="/acitivity"
                   className={styles.navLink}
                 >
-                  News & Events
+                  Acitivity
                 </Nav.Link>
                 <Nav.Link as={NavLink} to="/contact" className={styles.navLink}>
                   Reach Us

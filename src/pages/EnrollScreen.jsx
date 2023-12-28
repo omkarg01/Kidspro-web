@@ -40,7 +40,6 @@ const EnrollScreen = () => {
       ...formData,
       [name]: value,
     });
-    // console.log("f");
   };
 
   const submitHandler = async (event) => {
@@ -63,7 +62,7 @@ const EnrollScreen = () => {
     };
     
     console.log("formData",formData);
-    const apiUrl = "https://api.candibrain.com/enroll-now";
+    const apiUrl = "https://api.candibrain.com/enroll-now/";
     try {
       const response = await fetch(apiUrl, {
         method: "POST",
