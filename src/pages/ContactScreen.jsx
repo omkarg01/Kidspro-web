@@ -89,8 +89,9 @@ const ContactScreen = () => {
             <div class="col-lg-12 mx-auto">
               <iframe
                 src="https://www.google.com/maps/embed/v1/place?q=Candibrain+Preschool,+Akkammal+Garden,+33/2,+Villankurichi+Rd,+near+Selvalakshmi+Bakery,+Arivoli+Nagar,+FCI+Nagar,+Saravanampatti,+Coimbatore,+Tamil+Nadu+641035&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
-                data-tm-width="100%"
+                // data-tm-width="100%"
                 height="600"
+                width="100%"
                 frameborder="0"
                 allowfullscreen=""
               ></iframe>
