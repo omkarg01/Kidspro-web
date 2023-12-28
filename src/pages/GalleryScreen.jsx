@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import PageTitle from "../components/PageTitle";
 import GalleryCard from "../components/GalleryCard";
+import { Link } from "react-router-dom";
 
 const Gallery = () => {
   const [gallery, setGallery] = useState([]);
@@ -72,40 +73,44 @@ const Gallery = () => {
                     className="isotope-layout-filter filter-style-3 text-center cat-filter-theme-colored1"
                     data-link-with="gallery-holder-743344"
                   >
-                    <a href="#" className="active" data-filter="*">
+                    <Link  className="active" data-filter="*">
                       All
-                    </a>
-                    <a
-                      href="#laboratory"
+                    </Link>
+                    <Link
+                      // href="#laboratory"
                       className=""
                       data-filter=".others"
                     >
                       Infra
-                    </a>
-                    <a href="#surgery" className="" data-filter=".fun-activity">
+                    </Link>
+                    <Link
+                      // href="#surgery"
+                      className=""
+                      data-filter=".fun-activity"
+                    >
                       Activities
-                    </a>
-                    <a
-                      href="#orthopaedics"
+                    </Link>
+                    <Link
+                      // href="#orthopaedics"
                       className=""
                       data-filter=".sports"
                     >
                       Outdoor
-                    </a>
-                    <a
-                      href="#orthopaedics"
+                    </Link>
+                    <Link
+                      // href="#orthopaedics"
                       className=""
                       data-filter=".dance"
                     >
                       Dance
-                    </a>
-                    <a
-                      href="#orthopaedics"
+                    </Link>
+                    <Link
+                      // href="#orthopaedics"
                       className=""
                       data-filter=".music"
                     >
                       Music
-                    </a>
+                    </Link>
                   </div>
                   {/* <!-- End Isotope Filter --> */}
                   {/* <!-- Isotope Gallery Grid --> */}

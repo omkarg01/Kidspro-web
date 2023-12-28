@@ -83,7 +83,7 @@ const Header = () => {
                 <Nav.Link as={NavLink} to="/about" className={styles.navLink}>
                   About Us
                 </Nav.Link>
-                <Nav.Link to="program" as={NavLink} className={styles.navLink}>
+                <Nav.Link to="/program" as={NavLink} className={styles.navLink}>
                   Program
                 </Nav.Link>
                 <Nav.Link as={NavLink}  to="/gallery" className={styles.navLink}>
