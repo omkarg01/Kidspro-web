@@ -1,4 +1,3 @@
-
 const Carousel = () => {
   return (
     <section id="home">
@@ -65,7 +64,9 @@ const Carousel = () => {
                       style={{ zIndex: "11", textTransform: "capitalize" }}
                       className="font-current-theme2"
                     >
-                      CandiBrain <span className="text-theme-colored3">Preschool</span>
+                      CandiBrain{" "}
+                      <span className="text-theme-colored3">Preschool</span> -
+                      an IITian's Initiative
                     </rs-layer>
                     <rs-layer
                       id="slider-2-slide-2-layer-22"
@@ -76,7 +77,7 @@ const Carousel = () => {
                       data-frame_0="y:-50,-37,-28,-17;"
                       data-frame_1="st:1700;sp:1000;sR:1700;"
                       data-frame_999="o:0;st:w;sR:6300;"
-                      style={{zIndex:'10'}}
+                      style={{ zIndex: "10" }}
                       className="font-current-theme1"
                     >
                       {/* <a
@@ -94,11 +95,14 @@ const Carousel = () => {
                       data-dim="w:100%;h:100%;"
                       data-basealign="slide"
                       data-frame_999="o:0;st:w;sR:8700;"
-                      style={{zIndex:'8', backgroundColor:'rgba(0,10,22,0.17)'}}
+                      style={{
+                        zIndex: "8",
+                        backgroundColor: "rgba(0,10,22,0.17)",
+                      }}
                     ></rs-layer>
                   </rs-slide>
                   <rs-slide
-                    data-key="rs-2"
+                    data-key="rs-1"
                     data-title="Slide 1"
                     data-thumb="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/bg1.jpg"
                     data-anim="ei:d;eo:d;s:d;r:default;t:slotslide-horizontal;sl:d;"
@@ -141,7 +145,9 @@ const Carousel = () => {
                       style={{ zIndex: "11", textTransform: "capitalize" }}
                       className="font-current-theme2"
                     >
-                      Kinder <span className="text-theme-colored3">Garten</span>
+                      CandiBrain{" "}
+                      <span className="text-theme-colored3">Preschool</span> -
+                      an IITian's Initiative
                     </rs-layer>
                     <rs-layer
                       id="slider-2-slide-2-layer-22"
@@ -152,7 +158,7 @@ const Carousel = () => {
                       data-frame_0="y:-50,-37,-28,-17;"
                       data-frame_1="st:1700;sp:1000;sR:1700;"
                       data-frame_999="o:0;st:w;sR:6300;"
-                      style={{zIndex:'10'}}
+                      style={{ zIndex: "10" }}
                       className="font-current-theme1"
                     >
                       {/* <a
@@ -170,14 +176,18 @@ const Carousel = () => {
                       data-dim="w:100%;h:100%;"
                       data-basealign="slide"
                       data-frame_999="o:0;st:w;sR:8700;"
-                      style={{zIndex:'8', backgroundColor:'rgba(0,10,22,0.17)'}}
+                      style={{
+                        zIndex: "8",
+                        backgroundColor: "rgba(0,10,22,0.17)",
+                      }}
                     ></rs-layer>
                   </rs-slide>
+                  
                 </rs-slides>
                 <rs-static-layers></rs-static-layers>
                 <rs-progress
                   className="rs-bottom"
-                  style={{height: "5px", background: "rgba(199,199,199,0.5)"}}
+                  style={{ height: "5px", background: "rgba(199,199,199,0.5)" }}
                 ></rs-progress>
               </rs-module>
             </rs-module-wrap>

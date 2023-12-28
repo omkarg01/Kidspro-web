@@ -75,7 +75,7 @@ const Header = () => {
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="me-auto font-size-20">
+              <Nav className="me-auto font-size-20 text-white font-weight-bold navbar-nav">
                 <Nav.Link href="/" className={styles.navLink}>
                   Home
                 </Nav.Link>
@@ -117,7 +117,7 @@ const Header = () => {
                   Blogs
                 </Nav.Link>
               </Nav>
-              <Nav className="font-size-20">
+              {/* <Nav className="font-size-20">
                 <li>
                   <Nav.Link className="social-link" href="#">
                     <i className="fab fa-facebook"></i>
@@ -133,7 +133,7 @@ const Header = () => {
                     <i className="fab fa-youtube"></i>
                   </Nav.Link>
                 </li>
-              </Nav>
+              </Nav> */}
             </Navbar.Collapse>
           </Container>
         </Navbar>

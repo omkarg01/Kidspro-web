@@ -21,6 +21,11 @@ const Footer = () => {
                       style={{ height: "100px", width: "120px" }}
                     />
                   </div>
+                  <div className="text-decoration font-size-15">
+                    <strong>
+                      Candibrain Preschool - an IITian's Initiative
+                    </strong>
+                  </div>
                   <div className="description">
                     Vilankurchi, Saravanampatti, Coimbatore
                   </div>
@@ -87,59 +92,59 @@ const Footer = () => {
               </div>
               <div className="col-md-6 col-lg-6 col-xl-4 pt-4">
                 {/* <div className="col-sm-6 col-md-4 col-lg-4"> */}
-                  <div className="widget dark">
-                    <h5 className="widget-title mb-10">Connect With Us</h5>
-                    <ul className="styled-icons icon-dark icon-theme-colored1 icon-rounded clearfix">
-                      <li>
-                        <a className="social-link" href="#">
-                          <i className="fab fa-facebook"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a className="social-link" href="#">
-                          <i className="fab fa-twitter"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a className="social-link" href="#">
-                          <i className="fab fa-youtube"></i>
-                        </a>
-                      </li>
-                      <li>
-                        <a className="social-link" href="#">
-                          <i className="fab fa-instagram"></i>
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
+                <div className="widget dark">
+                  <h5 className="widget-title mb-10">Connect With Us</h5>
+                  <ul className="styled-icons icon-dark icon-theme-colored1 icon-rounded clearfix">
+                    <li>
+                      <a className="social-link" href="#">
+                        <i className="fab fa-facebook"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="social-link" href="#">
+                        <i className="fab fa-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="social-link" href="#">
+                        <i className="fab fa-youtube"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a className="social-link" href="#">
+                        <i className="fab fa-instagram"></i>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
                 {/* </div> */}
                 {/* <div className="col-md-5 col-lg-5"> */}
-                  <form
-                    id="mailchimp-subscription-form1"
-                    className="newsletter-form"
-                  >
-                    <label htmlFor="mce-EMAIL"></label>
-                    <div className="input-group">
-                      <input
-                        type="email"
-                        id="mce-EMAIL"
+                <form
+                  id="mailchimp-subscription-form1"
+                  className="newsletter-form"
+                >
+                  <label htmlFor="mce-EMAIL"></label>
+                  <div className="input-group">
+                    <input
+                      type="email"
+                      id="mce-EMAIL"
+                      data-tm-height="45px"
+                      className="form-control"
+                      placeholder="Your Email"
+                      name="EMAIL"
+                      value=""
+                    />
+                    <div className="input-group-append tm-sc-button">
+                      <button
+                        type="submit"
+                        className="btn btn-theme-colored1 btn-sm"
                         data-tm-height="45px"
-                        className="form-control"
-                        placeholder="Your Email"
-                        name="EMAIL"
-                        value=""
-                      />
-                      <div className="input-group-append tm-sc-button">
-                        <button
-                          type="submit"
-                          className="btn btn-theme-colored1 btn-sm"
-                          data-tm-height="45px"
-                        >
-                          Subscribe
-                        </button>
-                      </div>
+                      >
+                        Subscribe
+                      </button>
                     </div>
-                  </form>
+                  </div>
+                </form>
                 {/* </div> */}
               </div>
             </div>

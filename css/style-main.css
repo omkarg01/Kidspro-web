@@ -12719,7 +12719,8 @@ blockquote.blockquote-style8 footer cite {
   float: left;
 }
 .opening-hours li .value, .working-hours li .value {
-  float: right;
+  margin-left: 10px;
+  float: left;
 }
 .opening-hours li.active, .working-hours li.active {
   font-weight: bold;
