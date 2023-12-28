@@ -143,12 +143,13 @@ const ActivityListScreen = () => {
                           // data-bs-toggle="tab"
                         >
                           {" "}
-                          {/* <i class="far fa-life-ring"></i> <span>Coding</span>{" "} */}
+                          {/* <i class="far fa-life-ring"></i>  */}
                           <Image
                             src="../../images/activity/coding.png"
                             alt=""
                             class="w-5 mb-md-3"
                           />
+                          <span>Coding</span>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored1">
@@ -160,12 +161,13 @@ const ActivityListScreen = () => {
                           // data-bs-toggle="tab"
                         >
                           {" "}
-                          {/* <i class="fas fa-trophy"></i> <span>Handwriting</span>{" "} */}
+                          {/* <i class="fas fa-trophy"></i>  */}
                           <Image
                             src="../../images/activity/handwriting.png"
                             alt=""
                             class="w-5 mb-md-3"
                           />
+                          <span>Handwriting</span>{" "}
                         </Link>
                       </li>
                     </ul>
@@ -181,12 +183,13 @@ const ActivityListScreen = () => {
                           // data-bs-toggle="tab"
                         >
                           {" "}
-                          {/* <i class="fas fa-music"></i> <span>Abacus</span>{" "} */}
+                          {/* <i class="fas fa-music"></i>  */}
                           <Image
                             src="../../images/activity/abacus.png"
                             alt=""
                             class="w-5 mb-md-3"
                           />
+                          <span>Abacus</span>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored4">
@@ -234,12 +237,13 @@ const ActivityListScreen = () => {
                           // data-bs-toggle="tab"
                         >
                           {" "}
-                          {/* <i class="far fa-life-ring"></i> <span>Library</span>{" "} */}
+                          {/* <i class="far fa-life-ring"></i>  */}
                           <Image
                             src="../../images/activity/library.png"
                             alt=""
                             class="w-5 mb-md-3"
                           />
+                          <span>Library</span>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored3">
@@ -250,12 +254,13 @@ const ActivityListScreen = () => {
                           state={{ data: videoGallery, type: "chess" }}
                         >
                           {" "}
-                          {/* <i class="fas fa-trophy"></i> <span>Chess</span>{" "} */}
+                          {/* <i class="fas fa-trophy"></i>  */}
                           <Image
                             src="../../images/activity/chess.png"
                             alt=""
                             class="w-5 mb-md-3"
                           />
+                          <span>Chess</span>{" "}
                         </Link>
                       </li>
                     </ul>
