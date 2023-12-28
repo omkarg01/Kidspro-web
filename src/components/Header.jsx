@@ -14,7 +14,7 @@ const Header = () => {
       <header id="header" className="header header-layout-type-header-2rows">
         <div className="header-top">
           <div className="">
-            <div className="row mx-5">
+            <div className="row">
               <div className="col-xl-auto header-top-left align-self-center text-center text-xl-start">
                 <ul className="element contact-info text-black">
                   <li className="contact-phone">
@@ -51,14 +51,15 @@ const Header = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="element pt-0 pt-lg-10 pb-0">
-                  <Link
-                    to={"enroll"}
-                    className="btn text-white btn-danger btn-sm"
-                  >
-                    Enrol Now
-                  </Link>
-                </div>
+                {/* <div className="element pt-0 pt-lg-10 pb-0"> */}
+                <Link
+                  to={"enroll"}
+                  className="btn text-white btn-danger btn-sm"
+                  style={{ border: "5px solid white", borderRadius: "10px" }}
+                >
+                  Enrol Now
+                </Link>
+                {/* </div> */}
               </div>
             </div>
           </div>
@@ -76,28 +77,16 @@ const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto font-size-20 text-white font-weight-bold navbar-nav">
-                <Nav.Link href="/" className={styles.navLink}>
+                <Nav.Link href="/"  className={styles.navLink} >
                   Home
                 </Nav.Link>
                 <Nav.Link as={NavLink} to="/about" className={styles.navLink}>
                   About Us
                 </Nav.Link>
-                {/* <NavDropdown
-                  title="Programs"
-                  id="collapsible-nav-dropdown"
-                > */}
                 <Nav.Link to="program" as={NavLink} className={styles.navLink}>
                   Program
                 </Nav.Link>
-                {/* <Nav.Link
-                    to="program"
-                    as={NavLink}
-                    className={styles.navLink}
-                  >
-                    Hobbies
-                  </Nav.Link>
-                </NavDropdown> */}
-                <Nav.Link as={NavLink} to="/gallery" className={styles.navLink}>
+                <Nav.Link as={NavLink}  to="/gallery" className={styles.navLink}>
                   Gallery
                 </Nav.Link>
                 <Nav.Link
@@ -117,23 +106,6 @@ const Header = () => {
                   Blogs
                 </Nav.Link>
               </Nav>
-              {/* <Nav className="font-size-20">
-                <li>
-                  <Nav.Link className="social-link" href="#">
-                    <i className="fab fa-facebook"></i>
-                  </Nav.Link>
-                </li>
-                <li>
-                  <Nav.Link className="social-link" href="#">
-                    <i className="fab fa-twitter"></i>
-                  </Nav.Link>
-                </li>
-                <li>
-                  <Nav.Link className="social-link" href="#">
-                    <i className="fab fa-youtube"></i>
-                  </Nav.Link>
-                </li>
-              </Nav> */}
             </Navbar.Collapse>
           </Container>
         </Navbar>

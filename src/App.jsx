@@ -3,13 +3,13 @@ import { Outlet } from "react-router-dom";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 // import 'bootstrap/dist/css/bootstrap.min.css';
+import styles from "./components/Navbar.module.css";
 
 function App() {
   return (
     <>
       <div id="wrapper" className="clearfix">
         <Header></Header>
-
         {/* <!-- Start main-content --> */}
         <div className="main-content-area">
           <Outlet />
