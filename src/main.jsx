@@ -25,8 +25,8 @@ const router = createBrowserRouter(createRoutesFromElements(
     <Route path='/gallery' element={<GalleryScreen/>}/>
     <Route path='/news-events' element={<NewsListScreen/>}/>
     <Route path='/news-events/1' element={<NewsDetailScreen/>}/>
-    <Route path='/acitivity' element={<ActivityListScreen/>}/>
-    <Route path='/acitivity/1' element={<ActivityScreen/>}/>
+    <Route path='/activity' element={<ActivityListScreen/>}/>
+    <Route path='/activity/1' element={<ActivityScreen/>}/>
     <Route path='/about' element={<AboutScreen/>}/>
     <Route path='/mission' element={<MissionScreen/>}/>
     <Route path='/vision' element={<VisionScreen/>}/>

@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
 
 .navbar {
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #ff81d9
 }
 
+
 .navLink {
-  color: #ff81d9;
+  color: #ff11f5;
   font-weight: 300;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -19,7 +21,7 @@
 }
 
 /* .navLink1 {
-  color: red;
+  color: #ff81d9;
   font-weight: 300;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -32,7 +34,7 @@
 
 
 .navLink:hover {
-  background-color: #ff81d9;
+  background-color: #ff11f5;
 }
 
 /* .navLink1:hover {

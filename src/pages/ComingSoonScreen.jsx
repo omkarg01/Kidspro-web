@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const ComingSoonScreen = () => {
   return (
@@ -9,6 +10,7 @@ const ComingSoonScreen = () => {
           <div class="container pt-0 pb-0"><div class="row">
               <div class="col-md-10 offset-md-1">
                 <h1 class="font-weight-100 font-64">We Are Coming Soon</h1>
+                <a class="btn btn-theme-colored1 btn-round btn-circled" href={"/"}>Return Home</a>
                 <div id="basic-coupon-clock" class="text-center font-size-36 pt-10 pb-10"></div>
 
               </div>

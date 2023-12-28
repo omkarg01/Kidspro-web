@@ -13,7 +13,7 @@ const Header = () => {
       {/* <!-- Header --> */}
       <header id="header" className="header header-layout-type-header-2rows">
         <div className="header-top">
-          <div className="" >
+          <div className="">
             <div className="row mx-5">
               <div className="col-xl-auto header-top-left align-self-center text-center text-xl-start">
                 <ul className="element contact-info text-black">
@@ -63,7 +63,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <Navbar collapseOnSelect expand="lg" className="">
+        <Navbar collapseOnSelect expand="lg" className={styles.navbar}>
           <Container>
             <Navbar.Brand href="/">
               <img
@@ -82,31 +82,27 @@ const Header = () => {
                 <Nav.Link as={NavLink} to="/about" className={styles.navLink}>
                   About Us
                 </Nav.Link>
-                <NavDropdown
+                {/* <NavDropdown
                   title="Programs"
                   id="collapsible-nav-dropdown"
-                >
-                  <Nav.Link
-                    to="program"
-                    as={NavLink}
-                    className={styles.navLink}
-                  >
-                    Program
-                  </Nav.Link>
-                  <Nav.Link
+                > */}
+                <Nav.Link to="program" as={NavLink} className={styles.navLink}>
+                  Program
+                </Nav.Link>
+                {/* <Nav.Link
                     to="program"
                     as={NavLink}
                     className={styles.navLink}
                   >
                     Hobbies
                   </Nav.Link>
-                </NavDropdown>
+                </NavDropdown> */}
                 <Nav.Link as={NavLink} to="/gallery" className={styles.navLink}>
                   Gallery
                 </Nav.Link>
                 <Nav.Link
                   as={NavLink}
-                  to="/acitivity"
+                  to="/activity"
                   className={styles.navLink}
                 >
                   Acitivity

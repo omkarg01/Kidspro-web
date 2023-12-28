@@ -7,10 +7,8 @@ const ActivityScreen = () => {
   const location = useLocation();
   const receivedData = location.state?.data;
   const type = location.state?.type;
-  const filteredData = receivedData.filter(each => each.type === type)
+  const filteredData = receivedData.filter((each) => each.type === type);
   console.log("filteredData", filteredData);
-
-  
 
   const capitalizeFirstLetter = (string) => {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -26,13 +24,17 @@ const ActivityScreen = () => {
         <div class="container mt-30 mb-30 pt-30 pb-30">
           <div class="row">
             <div class="col-md-10 order-lg-2 mx-auto">
+              <Link
+                class="btn btn-theme-colored1 btn-round btn-circled mb-20"
+                to={"/activity"}
+              >
+                Return Home
+              </Link>
               <div class="blog-posts">
-                {filteredData.length !== 0? (
-                  filteredData.map((each) =>
-                      <VideoFrame video={each} />
-                  )
+                {filteredData.length !== 0 ? (
+                  filteredData.map((each) => <VideoFrame video={each} />)
                 ) : (
-                  <div style={{textAlign: "center"}}>
+                  <div style={{ textAlign: "center" }}>
                     <h1>No Videos to show! </h1>
                   </div>
                 )}
