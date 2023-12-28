@@ -1,6 +1,38 @@
+import { useEffect, useState } from "react";
 import PageTitle from "../components/PageTitle";
+import GalleryCard from "../components/GalleryCard";
 
 const Gallery = () => {
+  const [gallery, setGallery] = useState([]);
+
+  const fetchData = async () => {
+    const apiUrl = "https://api.candibrain.com/api/read-only-gallery/";
+    try {
+      const response = await fetch(apiUrl, {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        // body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        console.log("Data fetched successfully!", data);
+        // You may want to reset the form or handle success in some way
+        setGallery(data.results);
+      } else {
+        console.error("Failed to submit form");
+      }
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);
+
   return (
     <>
       {/* <!-- Section: page title --> */}
@@ -46,26 +78,33 @@ const Gallery = () => {
                     <a
                       href="#laboratory"
                       className=""
-                      data-filter=".laboratory"
+                      data-filter=".others"
                     >
                       Infra
                     </a>
-                    <a href="#surgery" className="" data-filter=".surgery">
+                    <a href="#surgery" className="" data-filter=".fun-activity">
                       Activities
                     </a>
                     <a
                       href="#orthopaedics"
                       className=""
-                      data-filter=".orthopaedics"
+                      data-filter=".sports"
                     >
                       Outdoor
                     </a>
                     <a
                       href="#orthopaedics"
                       className=""
-                      data-filter=".orthopaedics"
+                      data-filter=".dance"
                     >
-                      Celebrations
+                      Dance
+                    </a>
+                    <a
+                      href="#orthopaedics"
+                      className=""
+                      data-filter=".music"
+                    >
+                      Music
                     </a>
                   </div>
                   {/* <!-- End Isotope Filter --> */}
@@ -77,50 +116,18 @@ const Gallery = () => {
                     <div className="isotope-layout-inner">
                       {/* <!-- the loop --> */}
                       {/* <!-- Isotope Item Start --> */}
-                      <div className="isotope-item laboratory surgery">
-                        <div className="isotope-item-inner">
-                          <div className="tm-gallery">
-                            <div className="tm-gallery-inner">
-                              <div className="thumb">
-                                <a href="#">
-                                  <img
-                                    src="https://html.kodesolution.com/2017/kidspro-html-b5/images/gallery/1.jpg"
-                                    className=""
-                                    alt="images"
-                                  />
-                                </a>
-                              </div>
-                              <div className="tm-gallery-content-wrapper">
-                                <div className="tm-gallery-content">
-                                  <div className="tm-gallery-content-inner">
-                                    <div className="icons-holder-inner">
-                                      <div className="styled-icons icon-dark icon-circled icon-theme-colored1">
-                                        <a
-                                          className="lightgallery-trigger styled-icons-item"
-                                          data-exthumbimage="images/shop/portfolio-sq2.jpg"
-                                          title="photo"
-                                          href="images/shop/portfolio-sq2.jpg"
-                                        >
-                                          <i className="fa fa-plus"></i>
-                                        </a>
-                                      </div>
-                                    </div>
-                                    <div className="title-holder">
-                                      <h5 className="title">
-                                        <a href="#">Demo Gallery 1</a>
-                                      </h5>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
+                      {/* <GalleryCard data={gallery[0]} /> */}
+                      {gallery ? (
+                        gallery.map((each) => <GalleryCard data={each} />)
+                      ) : (
+                        <div style={{ textAlign: "center" }}>
+                          <h1>No Images to show!</h1>
                         </div>
-                      </div>
+                      )}
                       {/* <!-- Isotope Item End --> */}
 
                       {/* <!-- Isotope Item Start --> */}
-                      <div className="isotope-item surgery orthopaedics">
+                      {/* <div className="isotope-item surgery orthopaedics">
                         <div className="isotope-item-inner">
                           <div className="tm-gallery">
                             <div className="tm-gallery-inner">
@@ -159,11 +166,11 @@ const Gallery = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- Isotope Item End --> */}
 
                       {/* <!-- Isotope Item Start --> */}
-                      <div className="isotope-item laboratory surgery">
+                      {/* <div className="isotope-item laboratory surgery">
                         <div className="isotope-item-inner">
                           <div className="tm-gallery">
                             <div className="tm-gallery-inner">
@@ -202,11 +209,11 @@ const Gallery = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- Isotope Item End --> */}
 
                       {/* <!-- Isotope Item Start --> */}
-                      <div className="isotope-item laboratory surgery">
+                      {/* <div className="isotope-item laboratory surgery">
                         <div className="isotope-item-inner">
                           <div className="tm-gallery">
                             <div className="tm-gallery-inner">
@@ -245,11 +252,11 @@ const Gallery = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- Isotope Item End --> */}
 
                       {/* <!-- Isotope Item Start --> */}
-                      <div className="isotope-item laboratory surgery">
+                      {/* <div className="isotope-item laboratory surgery">
                         <div className="isotope-item-inner">
                           <div className="tm-gallery">
                             <div className="tm-gallery-inner">
@@ -288,11 +295,11 @@ const Gallery = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- Isotope Item End --> */}
 
                       {/* <!-- Isotope Item Start --> */}
-                      <div className="isotope-item laboratory surgery">
+                      {/* <div className="isotope-item laboratory surgery">
                         <div className="isotope-item-inner">
                           <div className="tm-gallery">
                             <div className="tm-gallery-inner">
@@ -331,7 +338,7 @@ const Gallery = () => {
                             </div>
                           </div>
                         </div>
-                      </div>
+                      </div> */}
                       {/* <!-- Isotope Item End --> */}
                       {/* <!-- end of the loop --> */}
                     </div>
