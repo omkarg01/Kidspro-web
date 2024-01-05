@@ -9,7 +9,7 @@ export default defineConfig({
   root: './src',
   build: {
     chunkSizeWarningLimit: 1000,
-    outDir: 'dist',
+    outDir: '../dist',
     rollupOptions: {
       input: {
         // Specify the entry points for your JS files
