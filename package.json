@@ -2,7 +2,6 @@
   "name": "kidspro-web",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,12 +9,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "glob": "^10.3.10",
+    "globby": "^14.0.0",
+    "jquerry": "^0.0.1-security",
+    "jquery": "^3.7.1",
     "react": "^18.2.0",
     "react-bootstrap": "^2.9.1",
     "react-bootstrap-icons": "^1.10.3",
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
     "react-router-dom": "^6.21.1",
+    "requirejs": "^2.3.6",
     "styled-components": "^6.1.1"
   },
   "devDependencies": {

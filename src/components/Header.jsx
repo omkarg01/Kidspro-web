@@ -3,7 +3,9 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+// import FontAwesome from 'react-fontawesome'
 import styles from "./Navbar.module.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Header = () => {
   const location = useLocation();
@@ -18,8 +20,9 @@ const Header = () => {
               <div className="col-xl-auto header-top-left align-self-center text-center text-xl-start">
                 <ul className="element contact-info text-black">
                   <li className="contact-phone">
-                    <i className="fa fa-phone font-icon sm-display-block"></i>{" "}
-                    Tel: +91 8925353323
+                    {/* <FontAwesomeIcon icon="fa-solid fa-phone" /> */}
+                    <i class="fa fa-phone font-icon sm-display-block"></i> Tel:
+                    +91 8925353323
                   </li>
                   <li className="contact-email">
                     <i className="fa fa-envelope font-icon sm-display-block"></i>{" "}
@@ -68,7 +71,7 @@ const Header = () => {
           <Container>
             <Navbar.Brand href="/">
               <img
-                src="images/CandiBrain.png"
+                src="../images/CandiBrain.png"
                 width="100"
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
@@ -77,7 +80,7 @@ const Header = () => {
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto font-size-20 text-white font-weight-bold navbar-nav">
-                <Nav.Link href="/"  className={styles.navLink} >
+                <Nav.Link href="/" className={styles.navLink}>
                   Home
                 </Nav.Link>
                 <Nav.Link as={NavLink} to="/about" className={styles.navLink}>
@@ -86,7 +89,7 @@ const Header = () => {
                 <Nav.Link to="/program" as={NavLink} className={styles.navLink}>
                   Program
                 </Nav.Link>
-                <Nav.Link as={NavLink}  to="/gallery" className={styles.navLink}>
+                <Nav.Link as={NavLink} to="/gallery" className={styles.navLink}>
                   Gallery
                 </Nav.Link>
                 <Nav.Link

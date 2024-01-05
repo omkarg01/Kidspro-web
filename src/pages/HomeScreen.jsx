@@ -5,6 +5,7 @@ import Gallery from "../components/Gallery";
 import Testimonials from "../components/Testimonials";
 import Carousel from "../components/Carousel";
 import { useEffect, useState } from "react";
+import Slider from "../components/Slider";
 
 const HomeScreen = () => {
   // const [refresh, setRefresh] = useState(true);
@@ -20,7 +21,7 @@ const HomeScreen = () => {
   // }, [refresh]);
   return (
     <>
-      <Carousel></Carousel>
+      <Slider></Slider>
       <FeatureDivider></FeatureDivider>
       <Features></Features>
       {/* <SectionDivider></SectionDivider> */}

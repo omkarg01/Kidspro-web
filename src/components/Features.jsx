@@ -1,17 +1,17 @@
 const Features = () => {
   return (
     <section
-      className="bg-img-cover bg-img-center"
+      class="bg-img-cover bg-img-center"
       data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
     >
-      <div className="container">
-        <div className="section-title">
-          <div className="row justify-content-center">
-            <div className="col-lg-8 col-xl-6">
-              <div className="tm-sc-section-title section-title text-center">
-                <div className="title-wrapper">
-                  <h2 className="title">
-                    Our <span className="text-theme-colored3">Features</span>
+      <div class="container">
+        <div class="section-title">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-xl-6">
+              <div class="tm-sc-section-title section-title text-center">
+                <div class="title-wrapper">
+                  <h2 class="title">
+                    Our <span class="text-theme-colored3">Features</span>
                   </h2>
                   <p>
                     There are many variations of passages. But the majority have
@@ -23,27 +23,27 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="section-content">
-          <div className="row">
-            <div className="col-lg-4 col-xl-4">
+        <div class="section-content">
+          <div class="row">
+            <div class="col-lg-4 col-xl-4">
               <div
-                className="tm-sc-icon-box icon-box icon-right text-center text-lg-end iconbox-centered-in-responsive iconbox-theme-colored3 animate-icon-on-hover animate-icon-rotate-y mb-30 wow fadeInLeft"
+                class="tm-sc-icon-box icon-box icon-right text-center text-lg-end iconbox-centered-in-responsive iconbox-theme-colored3 animate-icon-on-hover animate-icon-rotate-y mb-30 wow fadeInLeft"
                 data-wow-duration="1s"
                 data-wow-delay="0.1s"
               >
-                <div className="icon-box-wrapper">
-                  <div className="icon-wrapper">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper">
                     {" "}
-                    <a className="icon icon-lg icon-dark icon-circled">
+                    <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i className="far fa-edit"></i>{" "}
+                      <i class="far fa-edit"></i>{" "}
                     </a>
                   </div>
-                  <div className="icon-text">
-                    <h5 className="icon-box-title mb-0 text-theme-colored4">
+                  <div class="icon-text">
+                    <h5 class="icon-box-title mb-0 text-theme-colored4">
                       Active Learning
                     </h5>
-                    <div className="content">
+                    <div class="content">
                       <p>
                         Candibrain promotes dynamic education through hands-on
                         activities and collaborative projects, cultivating
@@ -52,27 +52,27 @@ const Features = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="clearfix"></div>
+                  <div class="clearfix"></div>
                 </div>
               </div>
               <div
-                className="tm-sc-icon-box icon-box icon-right text-center text-lg-end iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate-y mb-30 wow fadeInLeft"
+                class="tm-sc-icon-box icon-box icon-right text-center text-lg-end iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate-y mb-30 wow fadeInLeft"
                 data-wow-duration="1s"
                 data-wow-delay="0.3s"
               >
-                <div className="icon-box-wrapper">
-                  <div className="icon-wrapper">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper">
                     {" "}
-                    <a className="icon icon-lg icon-dark icon-circled">
+                    <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i className="fas fa-book"></i>{" "}
+                      <i class="fas fa-book"></i>{" "}
                     </a>
                   </div>
-                  <div className="icon-text">
-                    <h5 className="icon-box-title mb-0 text-theme-colored2">
+                  <div class="icon-text">
+                    <h5 class="icon-box-title mb-0 text-theme-colored2">
                       Resource Centers
                     </h5>
-                    <div className="content">
+                    <div class="content">
                       <p>
                         Well-equipped hubs for research and self-directed
                         learning, Candibrain's resource centers empower students
@@ -80,27 +80,27 @@ const Features = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="clearfix"></div>
+                  <div class="clearfix"></div>
                 </div>
               </div>
               <div
-                className="tm-sc-icon-box icon-box icon-right text-center text-lg-end iconbox-centered-in-responsive iconbox-theme-colored4 animate-icon-on-hover animate-icon-rotate-y mb-md-30 wow fadeInLeft"
+                class="tm-sc-icon-box icon-box icon-right text-center text-lg-end iconbox-centered-in-responsive iconbox-theme-colored4 animate-icon-on-hover animate-icon-rotate-y mb-md-30 wow fadeInLeft"
                 data-wow-duration="1s"
                 data-wow-delay="0.5s"
               >
-                <div className="icon-box-wrapper">
-                  <div className="icon-wrapper">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper">
                     {" "}
-                    <a className="icon icon-lg icon-dark icon-circled">
+                    <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i className="fas fa-wifi" aria-hidden="true"></i>{" "}
+                      <i class="fas fa-wifi" aria-hidden="true"></i>{" "}
                     </a>
                   </div>
-                  <div className="icon-text">
-                    <h5 className="icon-box-title mb-0 text-theme-colored3">
+                  <div class="icon-text">
+                    <h5 class="icon-box-title mb-0 text-theme-colored3">
                       Technology Integration
                     </h5>
-                    <div className="content">
+                    <div class="content">
                       <p>
                         Candibrain seamlessly integrates technology, utilizing
                         digital resources and virtual classrooms to enhance
@@ -109,41 +109,41 @@ const Features = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="clearfix"></div>
+                  <div class="clearfix"></div>
                 </div>
               </div>
             </div>
             <div
-              className="col-lg-4 col-xl-4 wow fadeInUp"
+              class="col-lg-4 col-xl-4 wow fadeInUp"
               data-wow-duration="1s"
               data-wow-delay="0.1s"
             >
-              <div className="feature-img-content text-center">
+              <div class="feature-img-content text-center">
                 <img
                   src="https://html.kodesolution.com/2017/kidspro-html-b5/images/about/a1.png"
                   alt="a1.png"
                 />
               </div>
             </div>
-            <div className="col-lg-4 col-xl-4">
+            <div class="col-lg-4 col-xl-4">
               <div
-                className="tm-sc-icon-box icon-box icon-left text-center text-lg-start iconbox-centered-in-responsive iconbox-theme-colored3 animate-icon-on-hover animate-icon-rotate-y mb-30 wow fadeInRight"
+                class="tm-sc-icon-box icon-box icon-left text-center text-lg-start iconbox-centered-in-responsive iconbox-theme-colored3 animate-icon-on-hover animate-icon-rotate-y mb-30 wow fadeInRight"
                 data-wow-duration="1s"
                 data-wow-delay="0.1s"
               >
-                <div className="icon-box-wrapper">
-                  <div className="icon-wrapper">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper">
                     {" "}
-                    <a className="icon icon-lg icon-dark icon-circled">
+                    <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i className="fas fa-user-graduate"></i>{" "}
+                      <i class="fas fa-user-graduate"></i>{" "}
                     </a>
                   </div>
-                  <div className="icon-text">
-                    <h5 className="icon-box-title mb-0 text-theme-colored4">
+                  <div class="icon-text">
+                    <h5 class="icon-box-title mb-0 text-theme-colored4">
                       Expert Teachers
                     </h5>
-                    <div className="content">
+                    <div class="content">
                       <p>
                         Our passionate educators at Candibrain serve as mentors,
                         creating a nurturing environment that inspires curiosity
@@ -151,27 +151,27 @@ const Features = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="clearfix"></div>
+                  <div class="clearfix"></div>
                 </div>
               </div>
               <div
-                className="tm-sc-icon-box icon-box icon-left text-center text-lg-start iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate-y mb-30 wow fadeInRight"
+                class="tm-sc-icon-box icon-box icon-left text-center text-lg-start iconbox-centered-in-responsive iconbox-theme-colored1 animate-icon-on-hover animate-icon-rotate-y mb-30 wow fadeInRight"
                 data-wow-duration="1s"
                 data-wow-delay="0.3s"
               >
-                <div className="icon-box-wrapper">
-                  <div className="icon-wrapper">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper">
                     {" "}
-                    <a className="icon icon-lg icon-dark icon-circled">
+                    <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i className="far fa-smile"></i>{" "}
+                      <i class="far fa-smile"></i>{" "}
                     </a>
                   </div>
-                  <div className="icon-text">
-                    <h5 className="icon-box-title mb-0 text-theme-colored2">
+                  <div class="icon-text">
+                    <h5 class="icon-box-title mb-0 text-theme-colored2">
                       Safe and Secure Environment
                     </h5>
-                    <div className="content">
+                    <div class="content">
                       <p>
                         At At Candibrain, modern security and monitored play
                         areas guarantee your child's safety, offering parents
@@ -179,27 +179,27 @@ const Features = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="clearfix"></div>
+                  <div class="clearfix"></div>
                 </div>
               </div>
               <div
-                className="tm-sc-icon-box icon-box icon-left text-center text-lg-start iconbox-centered-in-responsive iconbox-theme-colored2 animate-icon-on-hover animate-icon-rotate-y wow fadeInRight"
+                class="tm-sc-icon-box icon-box icon-left text-center text-lg-start iconbox-centered-in-responsive iconbox-theme-colored2 animate-icon-on-hover animate-icon-rotate-y wow fadeInRight"
                 data-wow-duration="1s"
                 data-wow-delay="0.5s"
               >
-                <div className="icon-box-wrapper">
-                  <div className="icon-wrapper">
+                <div class="icon-box-wrapper">
+                  <div class="icon-wrapper">
                     {" "}
-                    <a className="icon icon-lg icon-dark icon-circled">
+                    <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i className="fa fa-medkit"></i>{" "}
+                      <i class="fa fa-medkit"></i>{" "}
                     </a>
                   </div>
-                  <div className="icon-text">
-                    <h5 className="icon-box-title mb-0 text-theme-colored3">
+                  <div class="icon-text">
+                    <h5 class="icon-box-title mb-0 text-theme-colored3">
                       Health and Wellness
                     </h5>
-                    <div className="content">
+                    <div class="content">
                       <p>
                         At Candibrain, we prioritize student well-being with
                         dedicated areas for health activities, fostering good
@@ -209,7 +209,7 @@ const Features = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="clearfix"></div>
+                  <div class="clearfix"></div>
                 </div>
               </div>
             </div>

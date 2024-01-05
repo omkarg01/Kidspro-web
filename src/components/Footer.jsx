@@ -76,16 +76,6 @@ const Footer = () => {
                         <span> Sat - Sun :</span>
                         <div className="value"> Closed </div>
                       </li>
-                      {/* <li className="clearfix">
-                        {" "}
-                        <span> Fri :</span>
-                        <div className="value"> 3.00 pm - 8.00 pm </div>
-                      </li>
-                      <li className="clearfix">
-                        {" "}
-                        <span> Sun : </span>
-                        <div className="value"> Closed </div>
-                      </li> */}
                     </ul>
                   </div>
                 </div>
@@ -117,8 +107,6 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                {/* </div> */}
-                {/* <div className="col-md-5 col-lg-5"> */}
                 <form
                   id="mailchimp-subscription-form1"
                   className="newsletter-form"
@@ -145,7 +133,6 @@ const Footer = () => {
                     </div>
                   </div>
                 </form>
-                {/* </div> */}
               </div>
             </div>
             {/* <div className="row"> */}
