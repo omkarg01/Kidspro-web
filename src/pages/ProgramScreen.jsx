@@ -9,7 +9,11 @@ const ProgramScreen = () => {
       {/* <!-- Section: Activity --> */}
       <section
         class="bg-img-cover bg-img-center"
-        data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
+        // data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
+        style={{
+          backgroundImage: `url('https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg')`,
+          // marginTop: '-34px',
+        }}
       >
         <div class="container pb-md-120" data-tm-padding-bottom="205px">
           <div class="section-title">
@@ -22,13 +26,18 @@ const ProgramScreen = () => {
                     </h2>
                     <p>
                       Embark on a journey with Candibrain Preschool as we guide
-                      your child through five distinct programs— <span className="text-theme-colored1"> Playgroup</span>, <span className="text-theme-colored2">
-                      Nursery </span>, <span className="text-theme-colored3"> Junior KG</span>, <span className="text-theme-colored1"> Senior KG </span>, and <span className="text-theme-colored4"> Day Care </span>. From the early
-                      stages of socialization in Playgroup to the advanced
-                      readiness for primary school in the Senior Program, each
-                      program is crafted to stimulate cognitive growth, foster
-                      essential skills, and instill a lifelong love for
-                      learning.
+                      your child through five distinct programs—{" "}
+                      <span className="text-theme-colored1"> Playgroup</span>,{" "}
+                      <span className="text-theme-colored2">Nursery </span>,{" "}
+                      <span className="text-theme-colored3"> Junior KG</span>,{" "}
+                      <span className="text-theme-colored1"> Senior KG </span>,
+                      and{" "}
+                      <span className="text-theme-colored4"> Day Care </span>.
+                      From the early stages of socialization in Playgroup to the
+                      advanced readiness for primary school in the Senior
+                      Program, each program is crafted to stimulate cognitive
+                      growth, foster essential skills, and instill a lifelong
+                      love for learning.
                     </p>
                   </div>
                 </div>
@@ -48,15 +57,36 @@ const ProgramScreen = () => {
                         data-bs-toggle="tab"
                       >
                         {" "}
-                        <i class="fas fa-music"></i> <span>Playgroup</span>{" "}
+                        <img
+                          src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/abc-block.png"
+                          alt=""
+                          style={{
+                            width: "auto",
+                            maxWidth: "45%",
+                            marginBottom: "0.5rem",
+                          }}
+                        />
+                        {/* <i class="fas fa-music"></i> */}
+                        <p class="m-0">Playgroup</p>{" "}
                       </a>
                     </li>
                     <li class="bg-theme-colored2">
                       {" "}
                       <a href="#tab-learn-tabs" class="" data-bs-toggle="tab">
                         {" "}
-                        <i class="fas fa-graduation-cap"></i>{" "}
-                        <span>Nursery</span>{" "}
+                        {/* <i class="fas fa-graduation-cap"></i> */}
+                        <img
+                          src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/kindergarten.png"
+                          alt=""
+                          style={{
+                            width: "auto",
+                            maxWidth: "45%",
+                            marginBottom: "0.5rem",
+                          }}
+                          />
+                        {" "}
+                        <p class="m-0">Nursery</p>
+                        {" "}
                       </a>
                     </li>
                     <li class="bg-theme-colored3">
@@ -67,15 +97,38 @@ const ProgramScreen = () => {
                         data-bs-toggle="tab"
                       >
                         {" "}
-                        <i class="fas fa-paint-brush"></i>{" "}
-                        <span>Junior KG</span>{" "}
+                        {/* <i class="fas fa-paint-brush"></i> */}
+                        <img
+                          src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/hand-print.png"
+                          alt=""
+                          style={{
+                            width: "auto",
+                            maxWidth: "45%",
+                            marginBottom: "0.5rem",
+                          }}
+                          />
+                        {" "}
+                        <p class="m-0">Junior KG</p>
+                        {" "}
                       </a>
                     </li>
                     <li class="bg-theme-colored1">
                       {" "}
                       <a href="#tab-sports-tabs" class="" data-bs-toggle="tab">
                         {" "}
-                        <i class="far fa-life-ring"></i> <span>Senior KG</span>{" "}
+                        {/* <i class="far fa-life-ring"></i>  */}
+                        <img
+                          src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/house.png"
+                          alt=""
+                          style={{
+                            width: "auto",
+                            maxWidth: "45%",
+                            marginBottom: "0.5rem",
+                          }}
+                          />
+                        {/* <span>Senior KG</span> */}
+                        <p class="m-0">Senior KG</p>
+                        {" "}
                       </a>
                     </li>
                     <li class="bg-theme-colored4">
@@ -86,7 +139,18 @@ const ProgramScreen = () => {
                         data-bs-toggle="tab"
                       >
                         {" "}
-                        <i class="fas fa-trophy"></i> <span>Day Care</span>{" "}
+                        {/* <i class="fas fa-trophy"></i>  */}
+                        <img
+                          src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/block.png"
+                          alt=""
+                          style={{
+                            width: "auto",
+                            maxWidth: "45%",
+                            marginBottom: "0.5rem",
+                          }}
+                          />
+                        <p class="m-0">Day Care</p>
+                        {" "}
                       </a>
                     </li>
                   </ul>
@@ -177,7 +241,7 @@ const ProgramScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/1.jpg"
+                            src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/1C1A0262_1_11zon.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />
@@ -267,7 +331,7 @@ const ProgramScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/2.jpg"
+                            src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/1C1A0419_1_11zon.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />
@@ -358,7 +422,7 @@ const ProgramScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/3.jpg"
+                            src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/1C1A0363(1)_1_11zon.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />
@@ -447,7 +511,7 @@ const ProgramScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/4.jpg"
+                            src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/1C1A0396_4_11zon.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />
@@ -529,7 +593,7 @@ const ProgramScreen = () => {
                         </div>
                         <div class="col-lg-6 col-xl-5">
                           <img
-                            src="https://html.kodesolution.com/2017/kidspro-html-b5/images/services/5.jpg"
+                            src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/1C1A0358_4_11zon.jpg"
                             alt=""
                             class="w-100 mb-md-30"
                           />

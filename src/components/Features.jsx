@@ -1,8 +1,17 @@
+import { MdEdit, MdHealthAndSafety } from "react-icons/md";
+import { FaBook, FaWifi } from "react-icons/fa6";
+import { FaChalkboardTeacher } from "react-icons/fa";
+import { CiFaceSmile } from "react-icons/ci";
+
 const Features = () => {
   return (
     <section
       class="bg-img-cover bg-img-center"
       data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
+      style={{
+        backgroundImage: `url('https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg')`,
+        marginTop: '-34px',
+      }}
     >
       <div class="container">
         <div class="section-title">
@@ -36,7 +45,8 @@ const Features = () => {
                     {" "}
                     <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i class="far fa-edit"></i>{" "}
+                      <MdEdit fontSize={45} style={{ marginBlock: "20px" }} />
+                      {/* <i class="far fa-edit"></i>{" "} */}
                     </a>
                   </div>
                   <div class="icon-text">
@@ -65,7 +75,8 @@ const Features = () => {
                     {" "}
                     <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i class="fas fa-book"></i>{" "}
+                      <FaBook fontSize={45} style={{ marginBlock: "20px" }} />
+                      {/* <i class="fas fa-book"></i> */}{" "}
                     </a>
                   </div>
                   <div class="icon-text">
@@ -93,7 +104,8 @@ const Features = () => {
                     {" "}
                     <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i class="fas fa-wifi" aria-hidden="true"></i>{" "}
+                      <FaWifi fontSize={45} style={{ marginBlock: "20px" }} />
+                      {/* <i class="fas fa-wifi" aria-hidden="true"></i> */}{" "}
                     </a>
                   </div>
                   <div class="icon-text">
@@ -136,7 +148,11 @@ const Features = () => {
                     {" "}
                     <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i class="fas fa-user-graduate"></i>{" "}
+                      <FaChalkboardTeacher
+                        fontSize={45}
+                        style={{ marginBlock: "20px" }}
+                      />
+                      {/* <i class="fas fa-user-graduate"></i> */}{" "}
                     </a>
                   </div>
                   <div class="icon-text">
@@ -164,7 +180,11 @@ const Features = () => {
                     {" "}
                     <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i class="far fa-smile"></i>{" "}
+                      <CiFaceSmile
+                        fontSize={60}
+                        style={{ marginBlock: "20px" }}
+                      />
+                      {/* <i class="far fa-smile"></i> */}{" "}
                     </a>
                   </div>
                   <div class="icon-text">
@@ -192,7 +212,11 @@ const Features = () => {
                     {" "}
                     <a class="icon icon-lg icon-dark icon-circled">
                       {" "}
-                      <i class="fa fa-medkit"></i>{" "}
+                      <MdHealthAndSafety
+                        fontSize={60}
+                        style={{ marginBlock: "18px" }}
+                      />
+                      {/* <i class="fa fa-medkit"></i> */}{" "}
                     </a>
                   </div>
                   <div class="icon-text">

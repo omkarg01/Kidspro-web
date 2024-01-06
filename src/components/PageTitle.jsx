@@ -11,7 +11,7 @@ const PageTitle = ({title}) => {
             <div className="row">
               <div className="col-md-12 text-center">
                 <h2 className="title">{title}</h2>
-                <nav
+                {/* <nav
                   className="breadcrumbs"
                   role="navigation"
                   aria-label="Breadcrumbs"
@@ -37,7 +37,7 @@ const PageTitle = ({title}) => {
                     {" "}
                     <span className="active">{title}</span>
                   </div>
-                </nav>
+                </nav> */}
               </div>
             </div>
           </div>

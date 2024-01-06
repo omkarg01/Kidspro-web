@@ -1,12 +1,18 @@
+import { FaHeart, FaUser, FaUserGraduate } from "react-icons/fa6";
+import { CiFaceSmile } from "react-icons/ci";
 
 const FeatureDivider = () => {
   return (
     <section
       className="divider"
-      data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/b1.png"
+      // data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/b1.png"
       data-tm-margin-top="-34px"
+      style={{
+        backgroundImage: `url('https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/b1.png')`,
+        marginTop: '-34px',
+      }}
     >
-      <div className="container">
+      <div className="container" >
         <div className="section-content">
           <div className="row">
             <div
@@ -18,7 +24,8 @@ const FeatureDivider = () => {
                 <div className="icon-box-wrapper">
                   <div className="icon-wrapper mb-20">
                     <a className="icon icon-xl icon-dark icon-circled bg-theme-colored1">
-                      <i className="fas fa-user text-white"></i>
+                      <FaUser fontSize={52} style={{ marginBlock: "25px" }} />
+                      {/* <i className="fas fa-user text-white"></i> */}
                     </a>
                   </div>
                   <div className="icon-text">
@@ -37,7 +44,10 @@ const FeatureDivider = () => {
                 <div className="icon-box-wrapper">
                   <div className="icon-wrapper mb-20">
                     <a className="icon icon-xl icon-dark icon-circled bg-theme-colored2">
-                      <i className="fas fa-graduation-cap text-white"></i>
+                      <FaUserGraduate
+                        fontSize={52}
+                        style={{ marginBlock: "25px" }}
+                      />
                     </a>
                   </div>
                   <div className="icon-text">
@@ -56,7 +66,11 @@ const FeatureDivider = () => {
                 <div className="icon-box-wrapper">
                   <div className="icon-wrapper mb-20">
                     <a className="icon icon-xl icon-dark icon-circled bg-theme-colored3">
-                      <i className="far fa-smile text-white"></i>
+                      <CiFaceSmile
+                        fontSize={60}
+                        style={{ marginBlock: "25px" }}
+                      />
+                      {/* <i className="far fa-smile text-white"></i> */}
                     </a>
                   </div>
                   <div className="icon-text">
@@ -75,7 +89,8 @@ const FeatureDivider = () => {
                 <div className="icon-box-wrapper">
                   <div className="icon-wrapper mb-20">
                     <a className="icon icon-xl icon-dark icon-circled bg-theme-colored4">
-                      <i className="fas fa-heart text-white"></i>
+                      <FaHeart fontSize={60} style={{ marginBlock: "25px" }} />
+                      {/* <i className="fas fa-heart text-white"></i> */}
                     </a>
                   </div>
                   <div className="icon-text">

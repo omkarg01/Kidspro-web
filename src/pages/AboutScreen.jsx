@@ -14,15 +14,53 @@ const AboutScreen = () => {
               <div class="col-lg-6 col-xl-8">
                 <div class="about-box-contents">
                   <div class="destails">
-                    <h3 class="text-theme-colored2">Welcome To CandiBrain Preschool</h3>
+                    <h3 class="text-theme-colored2">
+                      Welcome To CandiBrain Preschool
+                    </h3>
                     <h4 class="text-theme-colored3 line-bottom">
                       World Best Education In Our Kindergarten
                     </h4>
-                    <p>"Welcome to CandiBrain Preschool, where the magic of early childhood education comes to life! Established with a vision to create a nurturing space for young minds to flourish, we take pride in being more than just a preschool – we're a community dedicated to sparking curiosity and igniting a love for learning."</p>
-                    <p>"At the heart of CandiBrain Preschool is our belief that every child is a unique individual, and our approach revolves around cultivating their individual strengths. Our team of experienced educators is committed to providing a warm, inclusive atmosphere that encourages exploration, creativity, and social development."</p>
-                    <p>"We understand that the early years are crucial for laying the groundwork for a lifetime of learning. Our curriculum is thoughtfully designed to blend play-based activities with educational fundamentals, ensuring a holistic approach to early childhood education. We celebrate diversity, foster a sense of community, and create an environment where each child feels valued and supported."</p>
-                    <p>"Safety is paramount in our preschool community. Our facilities are equipped with modern safety measures, and we maintain a low student-to-teacher ratio to ensure personalized attention for every child. We strive to create an atmosphere where parents feel confident and children feel secure, making CandiBrain Preschool a home away from home."</p>
-                    <p>"Join us on this exciting journey of discovery and growth. At CandiBrain Preschool, we're not just shaping minds; we're nurturing the future leaders, thinkers, and dreamers of tomorrow. Come, be a part of our vibrant educational family!"</p>
+                    <p>
+                      "Welcome to CandiBrain Preschool, where the magic of early
+                      childhood education comes to life! Established with a
+                      vision to create a nurturing space for young minds to
+                      flourish, we take pride in being more than just a
+                      preschool – we're a community dedicated to sparking
+                      curiosity and igniting a love for learning."
+                    </p>
+                    <p>
+                      "At the heart of CandiBrain Preschool is our belief that
+                      every child is a unique individual, and our approach
+                      revolves around cultivating their individual strengths.
+                      Our team of experienced educators is committed to
+                      providing a warm, inclusive atmosphere that encourages
+                      exploration, creativity, and social development."
+                    </p>
+                    <p>
+                      "We understand that the early years are crucial for laying
+                      the groundwork for a lifetime of learning. Our curriculum
+                      is thoughtfully designed to blend play-based activities
+                      with educational fundamentals, ensuring a holistic
+                      approach to early childhood education. We celebrate
+                      diversity, foster a sense of community, and create an
+                      environment where each child feels valued and supported."
+                    </p>
+                    <p>
+                      "Safety is paramount in our preschool community. Our
+                      facilities are equipped with modern safety measures, and
+                      we maintain a low student-to-teacher ratio to ensure
+                      personalized attention for every child. We strive to
+                      create an atmosphere where parents feel confident and
+                      children feel secure, making CandiBrain Preschool a home
+                      away from home."
+                    </p>
+                    <p>
+                      "Join us on this exciting journey of discovery and growth.
+                      At CandiBrain Preschool, we're not just shaping minds;
+                      we're nurturing the future leaders, thinkers, and dreamers
+                      of tomorrow. Come, be a part of our vibrant educational
+                      family!"
+                    </p>
                   </div>
                 </div>
                 {/* <div class="row">
@@ -133,19 +171,9 @@ const AboutScreen = () => {
             </div>
           </div>
         </div>
-        <div class="tm-floating-objects">
-          <span
-            class="z-index-1 bg-img-cover"
-            data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/f2.png"
-            data-tm-width="100%"
-            data-tm-height="143"
-            data-tm-top="auto"
-            data-tm-bottom="0"
-            data-tm-left="0"
-            data-tm-right="0"
-            data-tm-opacity="-100px"
-          ></span>
-        </div>
+        {/* <div class="tm-floating-objects">
+          <span></span>
+        </div> */}
       </section>
     </>
   );

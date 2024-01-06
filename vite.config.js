@@ -8,6 +8,7 @@ export default defineConfig({
   ],
   root: './src',
   build: {
+    assetsDir: 'assets',
     chunkSizeWarningLimit: 1000,
     outDir: '../dist',
     rollupOptions: {
@@ -15,7 +16,6 @@ export default defineConfig({
         // Specify the entry points for your JS files
         main: './src/index.html', // Adjust the path based on your project structure
         // Add other entry points if needed
-        
       },
     },
   },

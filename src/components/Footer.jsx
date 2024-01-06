@@ -1,5 +1,11 @@
 // import $ from 'jquery';
 
+import { FaFacebook, FaTwitter, FaYoutube } from "react-icons/fa6";
+import { RiInstagramFill } from "react-icons/ri";
+import { FaPhoneAlt } from "react-icons/fa";
+import { IoIosMail } from "react-icons/io";
+import { CiGlobe } from "react-icons/ci";
+
 const Footer = () => {
   return (
     <>
@@ -32,7 +38,8 @@ const Footer = () => {
                   <ul className="mb-30">
                     <li className="contact-phone">
                       <div className="icon">
-                        <i className="flaticon-contact-042-phone-1"></i>
+                        <FaPhoneAlt className="text-white" />
+                        {/* <i className="flaticon-contact-042-phone-1"></i> */}
                       </div>
                       <div className="text">
                         <a href="tel:+918925353323">+918925353323</a>
@@ -40,7 +47,8 @@ const Footer = () => {
                     </li>
                     <li className="contact-email">
                       <div className="icon">
-                        <i className="flaticon-contact-043-email-1"></i>
+                        <IoIosMail className="text-white" />
+                        {/* <i className="flaticon-contact-043-email-1"></i> */}
                       </div>
                       <div className="text">
                         <a href="mailto:contact@candibrainpreschool.com">
@@ -50,7 +58,8 @@ const Footer = () => {
                     </li>
                     <li className="contact-website">
                       <div className="icon">
-                        <i className="flaticon-contact-035-website"></i>
+                        <CiGlobe className="text-white" />
+                        {/* <i className="flaticon-contact-035-website"></i> */}
                       </div>
                       <div className="text">
                         <a href="http://yourdomain.com">
@@ -87,22 +96,26 @@ const Footer = () => {
                   <ul className="styled-icons icon-dark icon-theme-colored1 icon-rounded clearfix">
                     <li>
                       <a className="social-link" href="#">
-                        <i className="fab fa-facebook"></i>
+                        <FaFacebook />
+                        {/* <i className="fab fa-facebook"></i> */}
                       </a>
                     </li>
                     <li>
                       <a className="social-link" href="#">
-                        <i className="fab fa-twitter"></i>
+                        <FaTwitter />
+                        {/* <i className="fab fa-twitter"></i> */}
                       </a>
                     </li>
                     <li>
                       <a className="social-link" href="#">
-                        <i className="fab fa-youtube"></i>
+                        <FaYoutube />
+                        {/* <i className="fab fa-youtube"></i> */}
                       </a>
                     </li>
                     <li>
                       <a className="social-link" href="#">
-                        <i className="fab fa-instagram"></i>
+                        <RiInstagramFill />
+                        {/* <i className="fab fa-instagram"></i> */}
                       </a>
                     </li>
                   </ul>
@@ -116,7 +129,7 @@ const Footer = () => {
                     <input
                       type="email"
                       id="mce-EMAIL"
-                      data-tm-height="45px"
+                      // data-tm-height="45px"
                       className="form-control"
                       placeholder="Your Email"
                       name="EMAIL"
@@ -125,8 +138,8 @@ const Footer = () => {
                     <div className="input-group-append tm-sc-button">
                       <button
                         type="submit"
-                        className="btn btn-theme-colored1 btn-sm"
-                        data-tm-height="45px"
+                        className="btn btn-theme-colored1 btn-sm h-100"
+                        // data-tm-height="45px"
                       >
                         Subscribe
                       </button>

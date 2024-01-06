@@ -1,4 +1,6 @@
 import React from "react";
+import { FaPhoneAlt } from "react-icons/fa";
+import { FaEnvelope, FaLocationDot } from "react-icons/fa6";
 
 const ContactScreen = () => {
   return (
@@ -23,7 +25,9 @@ const ContactScreen = () => {
                     <div class="icon-wrapper mb-30">
                       <a class="icon icon-type-font-icon icon-dark icon-circled">
                         {" "}
-                        <i class="flaticon-contact-044-call-1"></i>{" "}
+                        <FaPhoneAlt fontSize={30} style={{ marginBlock: "20px" }} />
+                        {/* <i class="flaticon-contact-044-call-1"></i> */}
+                        {" "}
                       </a>
                     </div>
                     <div class="icon-text">
@@ -42,7 +46,9 @@ const ContactScreen = () => {
                     <div class="icon-wrapper mb-30">
                       <a class="icon icon-type-font-icon icon-dark icon-circled">
                         {" "}
-                        <i class="flaticon-contact-043-email-1"></i>{" "}
+                        <FaEnvelope fontSize={30} style={{ marginBlock: "20px" }} />
+                        {/* <i class="flaticon-contact-043-email-1"></i> */}
+                        {" "}
                       </a>
                     </div>
                     <div class="icon-text">
@@ -63,7 +69,9 @@ const ContactScreen = () => {
                     <div class="icon-wrapper mb-30">
                       <a class="icon icon-type-font-icon icon-dark icon-circled">
                         {" "}
-                        <i class="flaticon-contact-025-world"></i>{" "}
+                        <FaLocationDot fontSize={30} style={{ marginBlock: "20px" }} />
+                        {/* <i class="flaticon-contact-025-world"></i> */}
+                        {" "}
                       </a>
                     </div>
                     <div class="icon-text">

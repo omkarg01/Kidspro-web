@@ -6,6 +6,14 @@ import NavDropdown from "react-bootstrap/NavDropdown";
 // import FontAwesome from 'react-fontawesome'
 import styles from "./Navbar.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  FaPhone,
+  FaEnvelope,
+  FaLocationDot,
+  FaFacebook,
+  FaTwitter,
+  FaYoutube,
+} from "react-icons/fa6";
 
 const Header = () => {
   const location = useLocation();
@@ -20,16 +28,18 @@ const Header = () => {
               <div className="col-xl-auto header-top-left align-self-center text-center text-xl-start">
                 <ul className="element contact-info text-black">
                   <li className="contact-phone">
-                    {/* <FontAwesomeIcon icon="fa-solid fa-phone" /> */}
-                    <i class="fa fa-phone font-icon sm-display-block"></i> Tel:
-                    +91 8925353323
+                    <FaPhone />{" "}
+                    {/* <i class="fa fa-phone font-icon sm-display-block"></i>  */}
+                    Tel: +91 8925353323
                   </li>
                   <li className="contact-email">
-                    <i className="fa fa-envelope font-icon sm-display-block"></i>{" "}
+                    <FaEnvelope />
+                    {/* <i className="fa fa-envelope font-icon sm-display-block"></i>{" "} */}{" "}
                     contact@candibrainpreschool.com
                   </li>
                   <li className="contact-address">
-                    <i className="fa fa-map font-icon sm-display-block"></i>{" "}
+                    <FaLocationDot />
+                    {/* <i className="fa fa-map font-icon sm-display-block"></i> */}{" "}
                     Vilankurchi, Saravanampatti, Coimbatore
                   </li>
                 </ul>
@@ -39,17 +49,20 @@ const Header = () => {
                   <ul className="styled-icons icon-dark icon-theme-colored3 icon-circled clearfix">
                     <li>
                       <a className="social-link" href="#">
-                        <i className="fab fa-facebook"></i>
+                        <FaFacebook />
+                        {/* <i className="fab fa-facebook"></i> */}
                       </a>
                     </li>
                     <li>
                       <a className="social-link" href="#">
-                        <i className="fab fa-twitter"></i>
+                        <FaTwitter />
+                        {/* <i className="fab fa-twitter"></i> */}
                       </a>
                     </li>
                     <li>
                       <a className="social-link" href="#">
-                        <i className="fab fa-youtube"></i>
+                        <FaYoutube />
+                        {/* <i className="fab fa-youtube"></i> */}
                       </a>
                     </li>
                   </ul>
