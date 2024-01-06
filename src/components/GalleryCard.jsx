@@ -1,4 +1,6 @@
 import React from "react";
+import { FaPlus } from "react-icons/fa";
+
 
 const GalleryCard = ({data}) => {
   return (
@@ -22,7 +24,8 @@ const GalleryCard = ({data}) => {
                         title="photo"
                         href={data.image}
                       >
-                        <i class="fa fa-plus"></i>
+                        {/* <i class="fa fa-plus"></i> */}
+                        <FaPlus />
                       </a>
                     </div>
                   </div>
