@@ -23,7 +23,7 @@ const Footer = () => {
                   <div className="thumb">
                     <img
                       alt="Logo"
-                      src="images/CandiBrain.png"
+                      src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/CandiBrain.png"
                       style={{ height: "100px", width: "120px" }}
                     />
                   </div>

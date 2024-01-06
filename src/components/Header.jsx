@@ -84,7 +84,7 @@ const Header = () => {
           <Container>
             <Navbar.Brand href="/">
               <img
-                src="../images/CandiBrain.png"
+                src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/CandiBrain.png"
                 width="100"
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
