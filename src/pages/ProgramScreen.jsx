@@ -1,5 +1,6 @@
 import React from "react";
 import PageTitle from "../components/PageTitle";
+import { FaStar } from "react-icons/fa6";
 
 const ProgramScreen = () => {
   return (
@@ -192,16 +193,22 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Structured play-based learning.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Introduction to basic shapes, colors, and
                                       numbers.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Storytelling and music sessions for
                                       sensory development.
                                     </li>
@@ -212,16 +219,22 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Outdoor playtime for gross motor skill
                                       enhancement.{" "}
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Creative arts and crafts activities.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Regular communication with parents to
                                       track developmental milestones.
                                     </li>
@@ -281,16 +294,22 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored2 me-2"></i> */}
+                                      <FaStar className="text-theme-colored2" />
+                                      {" "}
                                       Introduction to phonics and basic language
                                       skills.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored2 me-2"></i> */}
+                                      <FaStar className="text-theme-colored2" />
+                                      {" "}
                                       Hands-on exploration of math concepts.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored2 me-2"></i> */}
+                                      <FaStar className="text-theme-colored2" />
+                                      {" "}
                                       Themed learning units for
                                       interdisciplinary understanding.
                                     </li>
@@ -301,17 +320,23 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored2 me-2"></i> */}
+                                      <FaStar className="text-theme-colored2" />
+                                      {" "}
                                       Development of fine motor skills through
                                       art and writing activities.{" "}
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored2 me-2"></i> */}
+                                      <FaStar className="text-theme-colored2" />
+                                      {" "}
                                       Interactive storytelling sessions to
                                       enhance language comprehension.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored2 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored2 me-2"></i> */}
+                                      <FaStar className="text-theme-colored2" />
+                                      {" "}
                                       Regular assessments and progress reports
                                       for parents.
                                     </li>
@@ -371,17 +396,23 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored3 me-2"></i> */}
+                                      <FaStar className="text-theme-colored3" />
+                                      {" "}
                                       Advanced phonics and early reading
                                       comprehension.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored3 me-2"></i> */}
+                                      <FaStar className="text-theme-colored3" />
+                                      {" "}
                                       Introduction to basic mathematics and
                                       problem-solving.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored3 me-2"></i> */}
+                                      <FaStar className="text-theme-colored3" />
+                                      {" "}
                                       Hands-on science experiments for
                                       curiosity-driven learning.
                                     </li>
@@ -392,17 +423,23 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored3 me-2"></i> */}
+                                      <FaStar className="text-theme-colored3" />
+                                      {" "}
                                       Creative expression through arts, drama,
                                       and music.{" "}
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored3 me-2"></i> */}
+                                      <FaStar className="text-theme-colored3" />
+                                      {" "}
                                       Outdoor activities for physical
                                       development and teamwork.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored3 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored3 me-2"></i> */}
+                                      <FaStar className="text-theme-colored3" />
+                                      {" "}
                                       Regular parent-teacher conferences to
                                       discuss progress.
                                     </li>
@@ -462,15 +499,21 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Advanced reading and comprehension skills.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Mastery of basic mathematics concepts.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Introduction to basic science and
                                       environmental awareness.
                                     </li>
@@ -481,17 +524,23 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Critical thinking and problem-solving
                                       activities.{" "}
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Collaborative projects for teamwork and
                                       communication.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored1 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored1 me-2"></i> */}
+                                      <FaStar className="text-theme-colored1" />
+                                      {" "}
                                       Individualized learning plans to address
                                       specific learning needs.
                                     </li>
@@ -544,17 +593,23 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored4 me-2"></i> */}
+                                      <FaStar className="text-theme-colored4" />
+                                      {" "}
                                       Safe and secure environment with trained
                                       caregivers.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored4 me-2"></i> */}
+                                      <FaStar className="text-theme-colored4" />
+                                      {" "}
                                       Balanced schedule including nap time,
                                       meals, and play.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored4 me-2"></i> */}
+                                      <FaStar className="text-theme-colored4" />
+                                      {" "}
                                       Age-appropriate learning activities.
                                     </li>
                                   </ul>
@@ -564,16 +619,22 @@ const ProgramScreen = () => {
                                 <div class="tm-sc-unordered-list list-style">
                                   <ul class="list-unstyled text-black">
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored4 me-2"></i> */}
+                                      <FaStar className="text-theme-colored4" />
+                                      {" "}
                                       Outdoor play for physical development.{" "}
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored4 me-2"></i> */}
+                                      <FaStar className="text-theme-colored4" />
+                                      {" "}
                                       Regular updates and communication with
                                       parents.
                                     </li>
                                     <li>
-                                      <i class="icon fas fa-heart text-theme-colored4 me-2"></i>{" "}
+                                      {/* <i class="icon fas fa-heart text-theme-colored4 me-2"></i> */}
+                                      <FaStar className="text-theme-colored4" />
+                                      {" "}
                                       Flexible hours to accommodate varying
                                       schedules.
                                     </li>
