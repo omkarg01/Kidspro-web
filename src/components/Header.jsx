@@ -14,9 +14,20 @@ import {
   FaTwitter,
   FaYoutube,
 } from "react-icons/fa6";
+import { useState } from "react";
 
 const Header = () => {
   const location = useLocation();
+
+  const [expanded, setExpanded] = useState(false);
+
+  const handleNavbarToggle = () => {
+    setExpanded(!expanded);
+  };
+
+  const handleNavItemClick = () => {
+    setExpanded(false); // Collapse the navbar when a Nav.Link is clicked
+  };
 
   return (
     <>
@@ -80,7 +91,7 @@ const Header = () => {
             </div>
           </div>
         </div>
-        <Navbar collapseOnSelect expand="lg" className={styles.navbar}>
+        <Navbar collapseOnSelect='true' expand="lg" expanded={expanded} className={styles.navbar}>
           <Container>
             <Navbar.Brand href="/">
               <img
@@ -90,19 +101,19 @@ const Header = () => {
                 alt="React Bootstrap logo"
               />
             </Navbar.Brand>
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={handleNavbarToggle} />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto font-size-20 text-white font-weight-bold navbar-nav">
-                <Nav.Link href="/" className={styles.navLink}>
+                <Nav.Link href="/" className={styles.navLink} onClick={handleNavItemClick}>
                   Home
                 </Nav.Link>
-                <Nav.Link as={NavLink} to="/about" className={styles.navLink}>
+                <Nav.Link as={NavLink} to="/about" className={styles.navLink} onClick={handleNavItemClick}>
                   About Us
                 </Nav.Link>
                 {/* <Nav.Link to="/program" as={NavLink} className={styles.navLink}>
                   Program
                 </Nav.Link> */}
-                <Nav.Link as={NavLink} to="/gallery" className={styles.navLink}>
+                <Nav.Link as={NavLink} to="/gallery" className={styles.navLink} onClick={handleNavItemClick}>
                   Gallery
                 </Nav.Link>
                 {/* <Nav.Link
@@ -112,13 +123,13 @@ const Header = () => {
                 >
                   Acitivity
                 </Nav.Link> */}
-                <Nav.Link as={NavLink} to="/contact" className={styles.navLink}>
+                <Nav.Link as={NavLink} to="/contact" className={styles.navLink} onClick={handleNavItemClick}>
                   Reach Us
                 </Nav.Link>
-                <Nav.Link as={NavLink} to="/library" className={styles.navLink}>
+                <Nav.Link as={NavLink} to="/library" className={styles.navLink} onClick={handleNavItemClick}>
                   Library
                 </Nav.Link>
-                <Nav.Link as={NavLink} to="/blogs" className={styles.navLink}>
+                <Nav.Link as={NavLink} to="/blogs" className={styles.navLink} onClick={handleNavItemClick}>
                   Blogs
                 </Nav.Link>
               </Nav>
