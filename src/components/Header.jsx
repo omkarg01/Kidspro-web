@@ -68,13 +68,13 @@ const Header = () => {
                   </ul>
                 </div>
                 {/* <div className="element pt-0 pt-lg-10 pb-0"> */}
-                <Link
+                {/* <Link
                   to={"enroll"}
                   className="btn text-white btn-danger btn-sm"
                   style={{ border: "5px solid white", borderRadius: "10px" }}
                 >
                   Enrol Now
-                </Link>
+                </Link> */}
                 {/* </div> */}
               </div>
             </div>
@@ -99,19 +99,19 @@ const Header = () => {
                 <Nav.Link as={NavLink} to="/about" className={styles.navLink}>
                   About Us
                 </Nav.Link>
-                <Nav.Link to="/program" as={NavLink} className={styles.navLink}>
+                {/* <Nav.Link to="/program" as={NavLink} className={styles.navLink}>
                   Program
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link as={NavLink} to="/gallery" className={styles.navLink}>
                   Gallery
                 </Nav.Link>
-                <Nav.Link
+                {/* <Nav.Link
                   as={NavLink}
                   to="/activity"
                   className={styles.navLink}
                 >
                   Acitivity
-                </Nav.Link>
+                </Nav.Link> */}
                 <Nav.Link as={NavLink} to="/contact" className={styles.navLink}>
                   Reach Us
                 </Nav.Link>

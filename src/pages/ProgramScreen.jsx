@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa6";
 const ProgramScreen = () => {
   return (
     <>
-      <PageTitle title={"Programs"} />
+      {/* <PageTitle title={"Programs"} /> */}
 
       {/* <!-- Section: Activity --> */}
       <section

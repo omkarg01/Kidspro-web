@@ -6,6 +6,8 @@ import Testimonials from "../components/Testimonials";
 import Carousel from "../components/Carousel";
 import { useEffect, useState } from "react";
 import Slider from "../components/Slider";
+import ProgramScreen from "./ProgramScreen";
+import ActivityListScreen from "./ActivityListScreen";
 
 const HomeScreen = () => {
   // const [refresh, setRefresh] = useState(true);
@@ -25,6 +27,9 @@ const HomeScreen = () => {
       <FeatureDivider></FeatureDivider>
       <Features></Features>
       {/* <SectionDivider></SectionDivider> */}
+      {/* <ProgramScreeen></ProgramScreeen> */}
+      <ProgramScreen></ProgramScreen>
+      <ActivityListScreen></ActivityListScreen>
       <Gallery></Gallery>
       <Testimonials></Testimonials>
     </>

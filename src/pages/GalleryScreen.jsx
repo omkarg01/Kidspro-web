@@ -7,7 +7,7 @@ const Gallery = () => {
   const [gallery, setGallery] = useState([]);
 
   const fetchData = async () => {
-    const apiUrl = "https://api.candibrain.com/api/read-only-gallery/";
+    const apiUrl = "https://api.candibrain.com/api/read-only-gallery/?page_size=100";
     try {
       const response = await fetch(apiUrl, {
         method: "GET",

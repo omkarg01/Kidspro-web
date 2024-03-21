@@ -37,7 +37,7 @@ const ActivityListScreen = () => {
   return (
     <>
       {/* <!-- Section: page title --> */}
-      <PageTitle title={"Activity"} />
+      {/* <PageTitle title={"Activity"} /> */}
 
       {/* <!-- Section: News List Screen --> */}
       {videoGallery ? (
