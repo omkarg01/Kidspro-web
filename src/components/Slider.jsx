@@ -31,11 +31,11 @@ function Slider() {
     mother: "",
     fatherphone: "",
     motherphone: "",
-    addressline1: "",
-    addressline2: "",
-    state: "",
-    city: "",
-    postalcode: "",
+    addressline1: "addressline1",
+    addressline2: "addressline2",
+    state: "state",
+    city: "city",
+    postalcode: "postalcode",
     email: "",
   });
 
@@ -51,22 +51,22 @@ function Slider() {
 
   const submitHandler = async (event) => {
     event.preventDefault();
-    let formData = {
-      addressline1: "A-403, Silicon City",
-      addressline2: "Saravanampatty",
-      city: "Coimbatore",
-      dob: "2019-02-04",
-      email: "sowmyamohan918@gmail.com",
-      enrollfor: "playgroup",
-      father: "Vishal Singh",
-      fatherphone: "8884902800",
-      gender: "female",
-      mother: "Sowmya Mohan",
-      motherphone: "9740911636",
-      childname: "Aaruhi Singh",
-      postalcode: "641035",
-      state: "Tamil Nadu",
-    };
+    // let formData = {
+    //   addressline1: "addressline1",
+    //   addressline2: "addressline2",
+    //   city: "city",
+    //   dob: "2019-02-04",
+    //   email: "sowmyamohan918@gmail.com",
+    //   enrollfor: "playgroup",
+    //   father: "Vishal Singh",
+    //   fatherphone: "8884902800",
+    //   gender: "female",
+    //   mother: "Sowmya Mohan",
+    //   motherphone: "9740911636",
+    //   childname: "Aaruhi Singh",
+    //   postalcode: "641035",
+    //   state: "Tamil Nadu",
+    // };
 
     console.log("formData", formData);
     const apiUrl = "https://api.candibrain.com/enroll-now/";

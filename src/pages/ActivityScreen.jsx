@@ -26,7 +26,7 @@ const ActivityScreen = () => {
             <div class="col-md-10 order-lg-2 mx-auto">
               <Link
                 class="btn btn-theme-colored1 btn-round btn-circled mb-20"
-                to={"/activity"}
+                to={"/"}
               >
                 Return Home
               </Link>

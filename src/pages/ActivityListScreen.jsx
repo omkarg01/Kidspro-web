@@ -63,7 +63,7 @@ const ActivityListScreen = () => {
                         Embark on a journey with Candibrain Preschool as we
                         guide your child through five distinct programs—{" "}
                         <span className="text-theme-colored1"> Playgroup</span>,{" "}
-                        <span className="text-theme-colored2">Nursery </span>,{" "}
+                        <span className="text-theme-colored2"> Nursery </span>,{" "}
                         <span className="text-theme-colored3"> Junior KG</span>,{" "}
                         <span className="text-theme-colored1"> Senior KG </span>
                         , and{" "}
@@ -88,7 +88,7 @@ const ActivityListScreen = () => {
                         {" "}
                         {console.log("videoGallery", videoGallery)}
                         <Link
-                          to="1"
+                          to="activity/1"
                           state={{ data: videoGallery, type: "yoga" }}
                           class="show"
                           // data-bs-toggle="tab"
@@ -109,7 +109,7 @@ const ActivityListScreen = () => {
                       <li class="bg-theme-colored2">
                         {" "}
                         <Link
-                          to="1"
+                          to="activity/1"
                           state={{ data: videoGallery, type: "karate" }}
                           // class=""
                           // data-bs-toggle="tab"
@@ -130,7 +130,7 @@ const ActivityListScreen = () => {
                       <li class="bg-theme-colored3">
                         {" "}
                         <Link
-                          to="1"
+                          to="activity/1"
                           state={{ data: videoGallery, type: "robotics" }}
                           class=""
                           // data-bs-toggle="tab"
@@ -151,7 +151,7 @@ const ActivityListScreen = () => {
                       <li class="bg-theme-colored4">
                         {" "}
                         <Link
-                          to="1"
+                          to="activity/1"
                           state={{ data: videoGallery, type: "coding" }}
                           class=""
                           // data-bs-toggle="tab"
@@ -172,7 +172,7 @@ const ActivityListScreen = () => {
                       <li class="bg-theme-colored1">
                         {" "}
                         <Link
-                          to="1"
+                          to="activity/1"
                           state={{ data: videoGallery, type: "handwriting" }}
                           class=""
                           // data-bs-toggle="tab"
@@ -197,7 +197,7 @@ const ActivityListScreen = () => {
                       <li class="bg-theme-colored3 active">
                         {" "}
                         <Link
-                          to="1"
+                          to="activity/1"
                           state={{ data: videoGallery, type: "abacus" }}
                           class="active show"
                           // data-bs-toggle="tab"
@@ -218,7 +218,7 @@ const ActivityListScreen = () => {
                       <li class="bg-theme-colored4">
                         {" "}
                         <Link
-                          to="1"
+                          to="activity/1"
                           state={{ data: videoGallery, type: "fun-activity" }}
                           class=""
                           // data-bs-toggle="tab"
@@ -239,7 +239,7 @@ const ActivityListScreen = () => {
                       <li class="bg-theme-colored1">
                         {" "}
                         <Link
-                          to="1"
+                          to="activity/1"
                           state={{ data: videoGallery, type: "dance" }}
                           class=""
                           // data-bs-toggle="tab"
@@ -260,7 +260,7 @@ const ActivityListScreen = () => {
                       <li class="bg-theme-colored2">
                         {" "}
                         <Link
-                          to="1"
+                          to="activity/1"
                           state={{ data: videoGallery, type: "library" }}
                           class=""
                           // data-bs-toggle="tab"
@@ -281,7 +281,7 @@ const ActivityListScreen = () => {
                       <li class="bg-theme-colored3">
                         {" "}
                         <Link
-                          to="1"
+                          to="activity/1"
                           class=""
                           state={{ data: videoGallery, type: "chess" }}
                         >
