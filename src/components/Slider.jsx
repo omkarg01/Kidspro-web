@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Carousel from "react-bootstrap/Carousel";
+// import styles from './EnrollScreen.css';
 // import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 const data = [
