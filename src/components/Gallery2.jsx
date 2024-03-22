@@ -57,7 +57,7 @@ function Gallery2({ images }) {
           onClick={(e) => handleFilter(e, "infra")}
           // href="#laboratory"
           className=""
-          data-filter=".others"
+          data-filter=".infra"
         >
           Infra
         </Link>
