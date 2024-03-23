@@ -8,6 +8,9 @@ import { useEffect, useState } from "react";
 import Slider from "../components/Slider";
 import ProgramScreen from "./ProgramScreen";
 import ActivityListScreen from "./ActivityListScreen";
+import Gallery2 from "../components/Gallery2";
+
+import GalleryScreen from "./GalleryScreen"
 
 const HomeScreen = () => {
   // const [refresh, setRefresh] = useState(true);
@@ -24,13 +27,13 @@ const HomeScreen = () => {
   return (
     <>
       <Slider></Slider>
-      <FeatureDivider></FeatureDivider>
-      <Features></Features>
+      {/* <FeatureDivider></FeatureDivider> */}
       {/* <SectionDivider></SectionDivider> */}
       {/* <ProgramScreeen></ProgramScreeen> */}
       <ProgramScreen></ProgramScreen>
       <ActivityListScreen></ActivityListScreen>
-      <Gallery></Gallery>
+      <GalleryScreen></GalleryScreen>
+      <Features></Features>
       <Testimonials></Testimonials>
     </>
   );

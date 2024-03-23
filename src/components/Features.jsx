@@ -10,7 +10,9 @@ const Features = () => {
       data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
       style={{
         backgroundImage: `url('https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg')`,
-        marginTop: '-34px',
+        // marginTop: '-34px',
+        marginBlock: "-5%",
+        marginTop : window.innerWidth < 425 ? "-30%" : '-5%',
       }}
     >
       <div class="container">

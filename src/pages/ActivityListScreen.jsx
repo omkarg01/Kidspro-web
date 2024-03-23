@@ -30,6 +30,16 @@ const ActivityListScreen = () => {
     }
   };
 
+  const style = {
+    backgroundImage: `url('https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg')`,
+    // marginBlock:"450px"
+    // height: "80%"
+    // marginBlock: window.innerWidth < 425 ? "-40%" : "-5%",
+    // height: "80%",
+    marginTop : window.innerWidth < 425 ? "-40%" : '-5%',
+    marginBottom : window.innerWidth < 425 ? "-15%" : "0%",
+  }
+
   useEffect(() => {
     fetchData();
   }, []);
@@ -44,13 +54,9 @@ const ActivityListScreen = () => {
         <section
           class="bg-img-cover bg-img-center"
           // data-tm-bg-img="https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg"
-          style={{
-            backgroundImage: `url('https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg')`,
-            marginTop: '-34px',
-          }}
-
+          style={style}
         >
-          <div class="container pb-md-120" data-tm-padding-bottom="205px">
+          <div class="container">
             <div class="section-title">
               <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-9">
@@ -99,11 +105,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/yoga.png"
                             alt=""
                             // class="w-5 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Yoga</span> */}
-                          <p class="m-0">Yoga</p>
-                          {" "}
+                          <p class="m-0">Yoga</p>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored2">
@@ -120,11 +129,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/karate.png"
                             alt=""
                             // class="w-5 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Karate</span> */}
-                          <p class="m-0">Karate</p>
-                          {" "}
+                          <p class="m-0">Karate</p>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored3">
@@ -141,11 +153,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/robot.png"
                             alt=""
                             // class="w-5 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Robotics</span> */}
-                          <p class="m-0">Robotics</p>
-                          {" "}
+                          <p class="m-0">Robotics</p>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored4">
@@ -162,11 +177,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/coding.png"
                             alt=""
                             // class="w-5 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Coding</span> */}
-                          <p class="m-0">Coding</p>
-                          {" "}
+                          <p class="m-0">Coding</p>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored1">
@@ -183,11 +201,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/handwriting.png"
                             alt=""
                             // class="w-5 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Handwriting</span> */}
-                          <p class="m-0">Handwriting</p>
-                          {" "}
+                          <p class="m-0">Handwriting</p>{" "}
                         </Link>
                       </li>
                     </ul>
@@ -208,11 +229,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/abacus.png"
                             alt=""
                             // class="w-5 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Abacus</span> */}
-                          <p class="m-0">Abacus</p>
-                          {" "}
+                          <p class="m-0">Abacus</p>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored4">
@@ -229,11 +253,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/box.png"
                             alt=""
                             // class="w-5 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Fun Activity</span> */}
-                          <p class="m-0">Fun Activity</p>
-                          {" "}
+                          <p class="m-0">Fun Activity</p>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored1">
@@ -250,11 +277,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/dance.png"
                             alt=""
                             // class="w-5 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Dance & Music</span> */}
-                          <p class="m-0">Dance & Music</p>
-                          {" "}
+                          <p class="m-0">Dance & Music</p>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored2">
@@ -271,11 +301,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/library.png"
                             alt=""
                             // class="w-5 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Library</span> */}
-                          <p class="m-0">Library</p>
-                          {" "}
+                          <p class="m-0">Library</p>{" "}
                         </Link>
                       </li>
                       <li class="bg-theme-colored3">
@@ -291,11 +324,14 @@ const ActivityListScreen = () => {
                             src="https://payroll-appserver.s3.us-east-2.amazonaws.com/static/chess.png"
                             alt=""
                             // class="w-50 mb-md-3"
-                            style={{ width: 'auto', maxWidth: '45%', marginBottom: '0.5rem' }}
+                            style={{
+                              width: "auto",
+                              maxWidth: "45%",
+                              marginBottom: "0.5rem",
+                            }}
                           />
                           {/* <span>Chess</span> */}
-                          <p class="m-0">Chess</p>  
-                          {" "}
+                          <p class="m-0">Chess</p>{" "}
                         </Link>
                       </li>
                     </ul>

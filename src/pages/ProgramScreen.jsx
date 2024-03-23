@@ -14,6 +14,7 @@ const ProgramScreen = () => {
         style={{
           backgroundImage: `url('https://html.kodesolution.com/2017/kidspro-html-b5/images/bg/p2.jpg')`,
           // marginTop: '-34px',
+          marginBlock: "-5%",
         }}
       >
         <div class="container pb-md-120" data-tm-padding-bottom="205px">
