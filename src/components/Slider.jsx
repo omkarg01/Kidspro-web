@@ -18,6 +18,7 @@ const data = [
 ];
 
 function Slider() {
+  const placeholderText = "Date of Birth";
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
     setIndex(selectedIndex);
@@ -28,10 +29,10 @@ function Slider() {
     gender: "",
     dob: "",
     enrollfor: "",
-    father: "",
-    mother: "",
+    father: "father",
+    mother: "mother",
     fatherphone: "",
-    motherphone: "",
+    motherphone: "123456",
     addressline1: "addressline1",
     addressline2: "addressline2",
     state: "state",
@@ -112,7 +113,7 @@ function Slider() {
         <div className="container border-2">
           <div className="row">
             <div className="col-md-6 offset-md-3">
-              <div className="border-1px p-25">
+              <div className="border-1px p-25 font-size-15">
                 <h4 className="text-theme-colored4 text-uppercase m-0">
                   Enroll Form
                 </h4>
@@ -129,6 +130,15 @@ function Slider() {
                   <div className="row">
                     <div className="col-sm-12">
                       <div className="mb-3 mb-10">
+                      <label
+                          className="form-label text-theme-colored3"
+                          style={{
+                            marginTop: "2px",
+                            fontWeight: 'bold' 
+                          }}
+                        >
+                          {"Child Name"}
+                        </label>
                         <input
                           name="childname"
                           className="form-control"
@@ -142,6 +152,15 @@ function Slider() {
                     </div>
                     <div className="col-sm-12">
                       <div className="mb-3 mb-10">
+                      <label
+                          className="form-label text-theme-colored3"
+                          style={{
+                            marginTop: "2px",
+                            fontWeight: 'bold' 
+                          }}
+                        >
+                          {"Gender"}
+                        </label>
                         <select
                           name="gender"
                           className="form-control"
@@ -160,11 +179,20 @@ function Slider() {
                     </div>
                     <div className="col-sm-12">
                       <div className="mb-3 mb-10">
+                        <label
+                          className="form-label text-theme-colored3 "
+                          style={{
+                            marginTop: "2px",
+                            fontWeight: 'bold' 
+                          }}
+                        >
+                          {"Date of Birth"}
+                        </label>
                         <input
                           name="dob"
                           className="form-control required"
                           type="date"
-                          placeholder="Date of Birth"
+                          placeholder={placeholderText}
                           aria-required="true"
                           value={formData.dob}
                           onChange={handleChange}
@@ -173,6 +201,15 @@ function Slider() {
                     </div>
                     <div className="col-sm-12">
                       <div className="mb-3 mb-10">
+                      <label
+                          className="form-label text-theme-colored3 "
+                          style={{
+                            marginTop: "2px",
+                            fontWeight: 'bold' 
+                          }}
+                        >
+                          {"Select Program"}
+                        </label>
                         <select
                           name="enrollfor"
                           className="form-control"
@@ -183,7 +220,7 @@ function Slider() {
                           onChange={handleChange}
                         >
                           <option value="" selected>
-                            -- Select className Enrol For --
+                            -- Select Program --
                           </option>
                           <option value="playgroup">Play Group</option>
                           <option value="nursery">Nursery</option>
@@ -196,7 +233,7 @@ function Slider() {
                         </select>
                       </div>
                     </div>
-                    <div className="col-sm-6">
+                    {/* <div className="col-sm-6">
                       <div className="mb-3 mb-10">
                         <input
                           name="father"
@@ -208,21 +245,30 @@ function Slider() {
                           onChange={handleChange}
                         />
                       </div>
-                    </div>
-                    <div className="col-sm-6">
+                    </div> */}
+                    <div className="col-sm-12">
                       <div className="mb-3 mb-10">
+                      <label
+                          className="form-label text-theme-colored3"
+                          style={{
+                            marginTop: "2px",
+                            fontWeight: 'bold' 
+                          }}
+                        >
+                          {"Phone No."}
+                        </label>
                         <input
                           name="fatherphone"
                           className="form-control required"
                           type="text"
-                          placeholder="Enter Phone"
+                          placeholder="Enter Phone No."
                           aria-required="true"
                           value={formData.fatherphone}
                           onChange={handleChange}
                         />
                       </div>
                     </div>
-                    <div className="col-sm-6">
+                    {/* <div className="col-sm-6">
                       <div className="mb-3 mb-10">
                         <input
                           name="mother"
@@ -234,8 +280,8 @@ function Slider() {
                           onChange={handleChange}
                         />
                       </div>
-                    </div>
-                    <div className="col-sm-6">
+                    </div> */}
+                    {/* <div className="col-sm-6">
                       <div className="mb-3 mb-10">
                         <input
                           name="motherphone"
@@ -247,7 +293,7 @@ function Slider() {
                           onChange={handleChange}
                         />
                       </div>
-                    </div>
+                    </div> */}
 
                     {/* <div className="col-sm-12">
                       <div className="mb-3 mb-10">
