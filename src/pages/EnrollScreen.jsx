@@ -18,19 +18,6 @@ const EnrollScreen = () => {
     postalcode: "",
     email: "",
   });
-  // const [gender, setGender] = useState('');
-  // const [dob, setDob] = useState('');
-  // const [enrollfor, setEnrollfor] = useState('');
-  // const [father, setFather] = useState('');
-  // const [mother, setMother] = useState('');
-  // const [fatherphone, setFatherphone] = useState('');
-  // const [motherphone, setMotherphone] = useState('');
-  // const [addressline1, setAddressline1] = useState('');
-  // const [addressline2, setAddressline2] = useState('');
-  // const [state, setState] = useState('');
-  // const [city, setCity] = useState('');
-  // const [postalcode, setPostalcode] = useState('');
-  // const [email, setEmail] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;

@@ -113,9 +113,9 @@ const Header = () => {
                 {/* <Nav.Link to="/program" as={NavLink} className={styles.navLink}>
                   Program
                 </Nav.Link> */}
-                <Nav.Link as={NavLink} to="/gallery" className={styles.navLink} onClick={handleNavItemClick}>
+                {/* <Nav.Link as={NavLink} to="/gallery" className={styles.navLink} onClick={handleNavItemClick}>
                   Gallery
-                </Nav.Link>
+                </Nav.Link> */}
                 {/* <Nav.Link
                   as={NavLink}
                   to="/activity"
